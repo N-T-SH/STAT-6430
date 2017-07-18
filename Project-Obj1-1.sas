@@ -42,12 +42,12 @@ run;
 /*After stacking, the additional ProjNum from newform will not have corresponding consultant name. The following codes serve as a
 a way to fill in the missing consultant name */
 
-/*->->->->->->@elaine, what is the logic behind the below snippet of code?*/
 data stack_fill;
 set stack_MN;
 retain X; /*keep the last non-missing value in memory*/
 if not missing (Consultant) Then X = Consultant; /*fills the new variable with non-missing value */
 Consultant = X;
+drop = X;
 run;
 
 /* merge stack_fill with assign_n */
@@ -89,6 +89,14 @@ run;
 
 proc sort data= new_master;
 by ProjNum Date;
+run;
+
+*creating newmaster csv;
+filename NwMstr 'C:\SASProject\NewMaster.csv';
+data _NULL_;
+set new_master;
+file NwMstr dsd;
+put consultant Projnum Date Hours Stage Complete;
 run;
 
 LIBNAME ProjData 'C:\SASProject\';
