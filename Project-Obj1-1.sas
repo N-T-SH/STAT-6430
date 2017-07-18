@@ -8,16 +8,16 @@ data master_n;
 
 infile master firstobs=2 dsd; /*get rid of the first row in the orginal data */
 retain Consultant ProjNum Date Hours Stage Complete; /*Keep the column order*/
-length Date $10;
-input Consultant $ ProjNum Date mmddyy10. Hours Stage Complete;/*Change internal representation  of dates to sort on the basis of dates*/
+informat Date mmddyy10.; /*Corrected date format to Date*/
+input Consultant $ ProjNum Date Hours Stage Complete;/*Change internal representation  of dates to sort on the basis of dates*/
 run;
 
 /*import NewForm data */
 data newform_n;
 infile newform firstobs=2 dsd;
 retain ProjNum Date Hours Stage Complete;
-length Date $10;
-input ProjNum Date mmddyy10. Hours Stage Complete;
+informat Date mmddyy10.; /*Corrected date format to Date*/
+input ProjNum Date Hours Stage Complete;
 run;
 
 /*import Assignment data */
@@ -29,8 +29,8 @@ run;
 /*import Correction */
 data correct_n;
 infile correct firstobs=2 dsd;
-length Date $10;
-input ProjNum Date mmddyy10. $ Hours Stage;
+informat Date mmddyy10.; /*Corrected date format to Date*/
+input ProjNum Date Hours Stage;
 run;
 
 
@@ -42,6 +42,7 @@ run;
 /*After stacking, the additional ProjNum from newform will not have corresponding consultant name. The following codes serve as a
 a way to fill in the missing consultant name */
 
+/*->->->->->->@elaine, what is the logic behind the below snippet of code?*/
 data stack_fill;
 set stack_MN;
 retain X; /*keep the last non-missing value in memory*/
@@ -82,6 +83,7 @@ run;
 data new_master;
 update merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
 by ProjNum Date;
+/*format Date ddmmyy10. ;*/
 if in2 then Corrections = 'Yes'; /*Add columns for corrrections*/
 run;
 
@@ -89,18 +91,35 @@ proc sort data= new_master;
 by ProjNum Date;
 run;
 
-LIBNAME ProjData 'C:\SASProject';
-data ProjData.NewMaster;
-set new_master;
-run;
-
+LIBNAME ProjData 'C:\SASProject\';
 /*End of Objective 1, assuming merge is correct*/
 
 /*Objective 2: List of ongoing projects as on 11/4/2010*/
 data ongoing ( keep = ProjNum);
-set ProjData.NewMaster;
+set new_master;
 by ProjNum Date;
 if complete = 0 and last.ProjNum = 1 then output;
 run;
 
 /*Objective 3: */
+/*Only outputting to one File right now*/
+data Smith(keep = ProjNum Hrs_tot Stage Complete start_date end_date) Brown Jones;
+retain Hrs_tot Stage Complete start_date end_date; 
+set ProjData.NewMaster;
+by ProjNum Date;
+array Consult{3} $ Cons1-Cons3 ('Smith' 'Brown' 'Jones');
+do i  = 1 to 3;
+	if Consultant = Consult(i) then do;
+		if first.ProjNum then do;
+			Hrs_tot = Hours;
+			start_date = Date;
+		end;
+		else Hrs_tot = Hrs_tot + Hours;
+		if last.ProjNum then do;
+			end_date = Date;
+			output Smith;
+		end;
+	end;
+end;
+run;
+
