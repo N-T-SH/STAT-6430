@@ -106,21 +106,33 @@ run;
 
 /*Objective 3: */
 /*Only outputting to one File right now*/
-data Smith(keep = ProjNum Hrs_tot Stage Complete start_date end_date) Brown Jones;
+data Smith(keep = ProjNum Hrs_tot Stage Complete start_date end_date) 
+	Brown(keep = ProjNum Hrs_tot Stage Complete start_date end_date) 
+	Jones(keep = ProjNum Hrs_tot Stage Complete start_date end_date);
 retain Hrs_tot Stage Complete start_date end_date; 
 set ProjData.NewMaster;
 by ProjNum Date;
 array Consult{3} $ Cons1-Cons3 ('Smith' 'Brown' 'Jones');
 do i  = 1 to 3;
-	if Consultant = Consult(i) then do;
+	if Consultant = Consult(i) then do;/*Iterating over the three consultants*/
+		/*Calculating total hours spent on project*/
 		if first.ProjNum then do;
 			Hrs_tot = Hours;
 			start_date = Date;
 		end;
 		else Hrs_tot = Hrs_tot + Hours;
-		if last.ProjNum then do;
+		/*Outputting to three diffetren tables based on consultant*/
+		if last.ProjNum and Consultant = 'Smith' then do;
 			end_date = Date;
 			output Smith;
+		end;
+		if last.ProjNum and Consultant = 'Brown' then do;
+			end_date = Date;
+			output Brown;
+		end;
+		if last.ProjNum and Consultant = 'Jones' then do;
+			end_date = Date;
+			output Jones;
 		end;
 	end;
 end;
