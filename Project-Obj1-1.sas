@@ -42,12 +42,11 @@ run;
 /*After stacking, the additional ProjNum from newform will not have corresponding consultant name. The following codes serve as a
 a way to fill in the missing consultant name */
 
-data stack_fill;
+data stack_fill (drop = X);
 set stack_MN;
 retain X; /*keep the last non-missing value in memory*/
 if not missing (Consultant) Then X = Consultant; /*fills the new variable with non-missing value */
 Consultant = X;
-drop = X;
 run;
 
 /* merge stack_fill with assign_n */
