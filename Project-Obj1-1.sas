@@ -80,7 +80,7 @@ by ProjNum Date;
 run;
 
 data new_master;
-merge merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
+update merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
 by ProjNum Date;
 if in2 then Corrections = 'Yes'; /*Add columns for corrrections*/
 run;
@@ -94,7 +94,7 @@ filename NwMstr 'C:\SASProject\NewMaster.csv';
 data _NULL_;
 set new_master;
 file NwMstr dsd;
-put consultant Projnum Date Hours Stage Complete;
+put consultant Projnum Date Hours Stage Complete Corrections;
 run;
 
 LIBNAME ProjData 'C:\SASProject\';
