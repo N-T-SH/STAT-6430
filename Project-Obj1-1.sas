@@ -89,12 +89,16 @@ proc sort data= new_master;
 by ProjNum Date;
 run;
 
+LIBNAME ProjData 'C:\SASProject';
+data ProjData.NewMaster;
+set new_master;
+run;
 
 /*End of Objective 1, assuming merge is correct*/
 
 /*Objective 2: List of ongoing projects as on 11/4/2010*/
 data ongoing ( keep = ProjNum);
-set new_master;
+set ProjData.NewMaster;
 by ProjNum Date;
 if complete = 0 and last.ProjNum = 1 then output;
 run;
