@@ -80,9 +80,8 @@ by ProjNum Date;
 run;
 
 data new_master;
-update merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
+merge merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
 by ProjNum Date;
-/*format Date ddmmyy10. ;*/
 if in2 then Corrections = 'Yes'; /*Add columns for corrrections*/
 run;
 
