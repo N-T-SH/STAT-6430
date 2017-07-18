@@ -2,6 +2,7 @@ filename master 'C:\SASProject\Master.csv';
 filename newform 'C:\SASProject\NewForms.csv';
 filename assign 'C:\SASProject\Assignments.csv';
 filename correct 'C:\SASProject\Corrections.csv';
+filename projclas 'C:\SASProject\ProjClass.csv';
 
 /*import Master data*/
 data master_n;
@@ -33,6 +34,11 @@ informat Date mmddyy10.; /*Corrected date format to Date*/
 input ProjNum Date Hours Stage;
 run;
 
+/*import Project Class */
+data Proj_class;
+infile projclas firstobs=2 dsd;
+input type $ ProjNum;
+run;
 
 /*stack newform_n and master_n */
 data stack_MN;
@@ -83,6 +89,21 @@ data new_master;
 update merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
 by ProjNum Date;
 if in2 then Corrections = 'Yes'; /*Add columns for corrrections*/
+run;
+
+
+proc sort data= new_master;
+by ProjNum;
+run;
+
+proc sort data= Proj_Class;
+by ProjNum;
+run;
+
+data new_master;
+merge new_master Proj_Class;
+by ProjNum;
+*retain Consultant ProjNum Type Date Hours Stage Complete Corrections;
 run;
 
 proc sort data= new_master;
