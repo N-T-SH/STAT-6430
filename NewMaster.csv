@@ -1,889 +1,890 @@
-Smith,399,18284,0.75,1,0,,Advising
-Smith,399,18287,0.75,3,0,,Advising
-Smith,399,18288,0.75,3,0,Yes,Advising
-Smith,399,18290,1.25,4,1,,Advising
-Brown,400,18288,1,1,0,,IT/Web D
-Brown,400,18290,1,2,0,,IT/Web D
-Brown,400,18294,1.25,3,0,Yes,IT/Web D
-Brown,400,18296,1,3,0,,IT/Web D
-Brown,400,18298,2.5,3,0,,IT/Web D
-Brown,400,18301,3,3,0,,IT/Web D
-Brown,400,18303,0.75,3,0,,IT/Web D
-Brown,400,18304,3,3,0,,IT/Web D
-Brown,400,18305,2.25,3,0,Yes,IT/Web D
-Brown,400,18308,1,3,0,,IT/Web D
-Brown,400,18309,2.5,3,0,,IT/Web D
-Brown,400,18310,2.25,4,1,,IT/Web D
-Brown,400,18312,1,5,1,,IT/Web D
-Smith,401,18289,1,1,0,,Data Ana
-Smith,401,18290,0.75,2,0,,Data Ana
-Smith,401,18294,0.75,3,0,,Data Ana
-Smith,401,18296,2,3,0,,Data Ana
-Smith,401,18297,1,4,1,,Data Ana
-Smith,402,18294,0.75,1,0,,Data Ana
-Smith,402,18297,2.5,3,0,,Data Ana
-Smith,402,18301,0.75,4,1,,Data Ana
-Jones,403,18298,1.5,1,0,,Study Co
-Jones,403,18301,1.75,2,0,,Study Co
-Jones,403,18302,1.25,2,0,,Study Co
-Jones,403,18303,1,3,0,,Study Co
-Jones,403,18304,2.75,3,0,Yes,Study Co
-Jones,403,18308,1.75,3,0,Yes,Study Co
-Jones,403,18310,1.75,3,0,,Study Co
-Jones,403,18312,2.75,3,0,,Study Co
-Jones,403,18315,2.75,3,0,,Study Co
-Jones,403,18317,1.25,3,0,,Study Co
-Jones,403,18318,2.5,3,0,,Study Co
-Jones,403,18319,1.5,3,0,,Study Co
-Jones,403,18322,3,3,0,Yes,Study Co
-Jones,403,18324,1.75,3,0,,Study Co
-Jones,403,18326,1.25,3,0,,Study Co
-Jones,403,18336,2.25,4,1,,Study Co
-Smith,404,18302,1.5,1,0,,IT/Web D
-Smith,404,18303,1.75,2,0,,IT/Web D
-Smith,404,18304,1,2,0,,IT/Web D
-Smith,404,18305,0.75,2,0,Yes,IT/Web D
-Smith,404,18308,0.75,2,0,,IT/Web D
-Smith,404,18309,2,2,0,,IT/Web D
-Smith,404,18310,1.5,3,0,,IT/Web D
-Smith,404,18312,1.75,3,0,,IT/Web D
-Smith,404,18315,3,3,0,,IT/Web D
-Smith,404,18317,1.25,3,0,,IT/Web D
-Smith,404,18318,2.25,3,0,,IT/Web D
-Smith,404,18322,1.5,3,0,,IT/Web D
-Smith,404,18323,1.25,3,0,,IT/Web D
-Smith,404,18324,3,3,0,,IT/Web D
-Smith,404,18325,1.5,3,0,,IT/Web D
-Smith,404,18336,2.75,3,0,,IT/Web D
-Smith,404,18338,0.75,3,0,Yes,IT/Web D
-Smith,404,18339,1.25,3,0,,IT/Web D
-Smith,404,18343,1,4,1,,IT/Web D
-Smith,404,18344,0.75,5,1,,IT/Web D
-Brown,405,18303,1,1,0,,Advising
-Brown,405,18305,0.75,3,0,,Advising
-Brown,405,18308,1,4,1,,Advising
-Brown,406,18305,1,1,0,,Advising
-Brown,406,18308,1,3,0,,Advising
-Brown,406,18309,0.75,3,0,,Advising
-Brown,406,18310,1.25,4,1,,Advising
-Jones,407,18308,0.75,1,0,,Data Ana
-Jones,407,18309,0.75,2,0,,Data Ana
-Jones,407,18312,2.75,3,0,,Data Ana
-Jones,407,18315,0.75,3,0,,Data Ana
-Jones,407,18318,1,3,0,,Data Ana
-Jones,407,18322,0.75,4,1,,Data Ana
-Brown,408,18310,0.75,1,0,,Data Ana
-Brown,408,18312,0.75,2,0,,Data Ana
-Brown,408,18315,0.75,2,0,,Data Ana
-Brown,408,18317,0.75,2,0,,Data Ana
-Brown,408,18318,1.25,3,0,,Data Ana
-Brown,408,18322,1.25,3,0,,Data Ana
-Brown,408,18324,0.75,4,1,,Data Ana
-Jones,409,18311,0.75,1,0,,Data Ana
-Jones,409,18315,0.75,2,0,,Data Ana
-Jones,409,18316,0.75,2,0,,Data Ana
-Jones,409,18319,2.25,3,0,,Data Ana
-Jones,409,18322,0.75,4,1,,Data Ana
-Jones,409,18324,1,5,1,,Data Ana
-Brown,410,18311,1,1,0,,Data Ana
-Brown,410,18312,0.75,2,0,,Data Ana
-Brown,410,18315,0.75,2,0,,Data Ana
-Brown,410,18316,1,4,1,,Data Ana
-Brown,410,18317,0.75,5,1,,Data Ana
-Smith,411,18315,0.75,1,0,,Data Ana
-Smith,411,18316,0.75,2,0,,Data Ana
-Smith,411,18317,0.75,2,0,,Data Ana
-Smith,411,18319,0.75,2,0,,Data Ana
-Smith,411,18322,2.25,3,0,,Data Ana
-Smith,411,18325,2.25,3,0,,Data Ana
-Smith,411,18336,1.25,3,0,,Data Ana
-Smith,411,18337,1,4,1,,Data Ana
-Brown,412,18317,1,1,0,,Advising
-Brown,412,18318,0.75,2,0,,Advising
-Brown,412,18319,0.75,3,0,,Advising
-Brown,412,18322,0.75,4,1,Yes,Advising
-Brown,412,18324,0.75,5,1,,Advising
-Jones,413,18319,1.5,1,0,Yes,Study Co
-Jones,413,18322,2,2,0,,Study Co
-Jones,413,18324,1,2,0,,Study Co
-Jones,413,18325,2,2,0,,Study Co
-Jones,413,18336,1.25,2,0,Yes,Study Co
-Jones,413,18339,1,2,0,,Study Co
-Jones,413,18343,2,2,0,,Study Co
-Jones,413,18346,1.25,2,0,,Study Co
-Jones,413,18347,0.75,3,0,,Study Co
-Jones,413,18350,2.25,3,0,Yes,Study Co
-Jones,413,18353,1.75,4,0,,Study Co
-Jones,413,18357,1.5,4,1,,Study Co
-Brown,414,18322,1.5,1,0,,IT/Web D
-Brown,414,18324,1,2,0,Yes,IT/Web D
-Brown,414,18326,1.5,2,0,,IT/Web D
-Brown,414,18336,1.25,2,0,,IT/Web D
-Brown,414,18337,1.5,2,0,Yes,IT/Web D
-Brown,414,18339,0.75,3,0,,IT/Web D
-Brown,414,18343,1.25,3,0,,IT/Web D
-Brown,414,18345,2.5,3,0,,IT/Web D
-Brown,414,18346,1,3,0,Yes,IT/Web D
-Brown,414,18350,1.5,3,0,,IT/Web D
-Brown,414,18351,2.25,3,0,,IT/Web D
-Brown,414,18353,2.75,3,0,Yes,IT/Web D
-Brown,414,18354,3,3,0,,IT/Web D
-Brown,414,18357,0.75,3,0,,IT/Web D
-Brown,414,18358,1.25,3,0,,IT/Web D
-Brown,414,18359,1.75,3,0,,IT/Web D
-Brown,414,18361,1,4,0,,IT/Web D
-Brown,414,18364,1,4,1,,IT/Web D
-Brown,415,18326,1.5,1,0,,Study Co
-Brown,415,18336,2,2,0,,Study Co
-Brown,415,18337,0.75,2,0,,Study Co
-Brown,415,18338,1.5,2,0,Yes,Study Co
-Brown,415,18339,1.5,2,0,,Study Co
-Brown,415,18343,0.75,2,0,,Study Co
-Brown,415,18345,1.75,3,0,,Study Co
-Brown,415,18347,,3,0,,Study Co
-Brown,415,18350,1.25,3,0,,Study Co
-Brown,415,18351,2.5,3,0,Yes,Study Co
-Brown,415,18352,2.75,3,0,,Study Co
-Brown,415,18353,2.25,3,0,,Study Co
-Brown,415,18357,1.75,3,0,,Study Co
-Brown,415,18358,2,3,0,,Study Co
-Brown,415,18360,2.75,3,0,,Study Co
-Brown,415,18364,1,3,0,,Study Co
-Brown,415,18365,2.5,3,0,,Study Co
-Brown,415,18366,1,3,0,Yes,Study Co
-Brown,415,18368,2.5,3,0,,Study Co
-Brown,415,18371,1.25,4,0,,Study Co
-Brown,415,18373,1.25,4,0,,Study Co
-Brown,415,18375,1,4,0,,Study Co
-Brown,415,18378,2.25,4,1,Yes,Study Co
-Brown,415,18382,1,5,1,,Study Co
-Smith,416,18336,0.75,1,0,,Advising
-Smith,416,18338,0.75,3,0,,Advising
-Smith,416,18339,1.25,4,1,,Advising
-Jones,417,18336,1.5,1,0,,IT/Web D
-Jones,417,18337,2,2,0,,IT/Web D
-Jones,417,18338,0.75,2,0,,IT/Web D
-Jones,417,18339,1.25,2,0,,IT/Web D
-Jones,417,18343,1.5,2,0,Yes,IT/Web D
-Jones,417,18345,1.75,2,0,,IT/Web D
-Jones,417,18347,2.5,3,0,,IT/Web D
-Jones,417,18350,2,3,0,,IT/Web D
-Jones,417,18351,2.75,3,0,,IT/Web D
-Jones,417,18352,1,3,0,,IT/Web D
-Jones,417,18354,2.75,3,0,Yes,IT/Web D
-Jones,417,18357,3,3,0,,IT/Web D
-Jones,417,18358,2,3,0,Yes,IT/Web D
-Jones,417,18360,2.75,3,0,,IT/Web D
-Jones,417,18361,1,3,0,,IT/Web D
-Jones,417,18364,2.25,4,0,,IT/Web D
-Jones,417,18365,2,4,1,,IT/Web D
-Jones,418,18337,1,1,0,,IT/Web D
-Jones,418,18338,0.75,2,0,,IT/Web D
-Jones,418,18339,1.75,2,0,,IT/Web D
-Jones,418,18343,1,2,0,,IT/Web D
-Jones,418,18344,1.25,2,0,,IT/Web D
-Jones,418,18345,1,2,0,,IT/Web D
-Jones,418,18346,0.75,3,0,,IT/Web D
-Jones,418,18350,1,3,0,Yes,IT/Web D
-Jones,418,18351,3,3,0,,IT/Web D
-Jones,418,18353,2.5,3,0,,IT/Web D
-Jones,418,18357,2.25,3,0,,IT/Web D
-Jones,418,18358,2,4,0,,IT/Web D
-Jones,418,18360,0.75,4,1,,IT/Web D
-Smith,419,18343,0.75,1,0,,Data Ana
-Smith,419,18345,0.75,2,0,,Data Ana
-Smith,419,18346,0.75,2,0,,Data Ana
-Smith,419,18347,0.75,2,0,Yes,Data Ana
-Smith,419,18350,2.25,3,0,,Data Ana
-Smith,419,18352,1,4,1,,Data Ana
-Brown,420,18345,1.5,1,0,,IT/Web D
-Brown,420,18346,1,2,0,Yes,IT/Web D
-Brown,420,18347,1.5,2,0,,IT/Web D
-Brown,420,18350,0.75,2,0,,IT/Web D
-Brown,420,18352,1,2,0,,IT/Web D
-Brown,420,18354,2.75,3,0,,IT/Web D
-Brown,420,18357,2.25,3,0,,IT/Web D
-Brown,420,18358,0.75,3,0,,IT/Web D
-Brown,420,18359,2.5,3,0,,IT/Web D
-Brown,420,18360,1.75,4,1,Yes,IT/Web D
-Jones,421,18350,0.75,1,0,Yes,Data Ana
-Jones,421,18352,0.75,2,0,,Data Ana
-Jones,421,18353,0.75,2,0,,Data Ana
-Jones,421,18357,1.75,3,0,,Data Ana
-Jones,421,18359,2.5,3,0,,Data Ana
-Jones,421,18360,1,4,1,,Data Ana
-Brown,422,18350,1,1,0,Yes,Data Ana
-Brown,422,18352,0.75,2,0,,Data Ana
-Brown,422,18357,2,3,0,,Data Ana
-Brown,422,18358,2.5,3,0,,Data Ana
-Brown,422,18361,0.75,3,0,,Data Ana
-Brown,422,18364,1,4,1,,Data Ana
-Smith,423,18353,1.5,1,0,,Study Co
-Smith,423,18357,2,2,0,,Study Co
-Smith,423,18360,0.75,2,0,,Study Co
-Smith,423,18361,1.5,2,0,,Study Co
-Smith,423,18364,0.75,2,0,,Study Co
-Smith,423,18365,1.25,2,0,Yes,Study Co
-Smith,423,18368,1.25,2,0,Yes,Study Co
-Smith,423,18371,0.75,3,0,,Study Co
-Smith,423,18372,2.25,3,0,,Study Co
-Smith,423,18374,2.5,3,0,,Study Co
-Smith,423,18375,2.75,3,0,,Study Co
-Smith,423,18378,2.25,4,0,,Study Co
-Smith,423,18379,2.5,4,0,Yes,Study Co
-Smith,423,18380,0.75,4,1,,Study Co
-Smith,424,18357,0.75,1,0,,IT/Web D
-Smith,424,18359,1.5,2,0,,IT/Web D
-Smith,424,18361,1,2,0,,IT/Web D
-Smith,424,18364,1.75,2,0,,IT/Web D
-Smith,424,18366,1.25,2,0,,IT/Web D
-Smith,424,18367,0.75,2,0,,IT/Web D
-Smith,424,18371,2.25,3,0,,IT/Web D
-Smith,424,18372,2.5,3,0,Yes,IT/Web D
-Smith,424,18373,2.75,3,0,,IT/Web D
-Smith,424,18375,1.5,4,0,,IT/Web D
-Smith,424,18378,1.75,4,1,,IT/Web D
-Smith,424,18380,0.75,5,1,,IT/Web D
-Jones,425,18360,1,1,0,Yes,Advising
-Jones,425,18364,0.75,4,1,,Advising
-Brown,426,18360,1,1,0,,Advising
-Brown,426,18364,1,3,0,Yes,Advising
-Brown,426,18366,0.75,3,0,,Advising
-Brown,426,18368,1,4,1,,Advising
-Smith,427,18364,0.75,1,0,,Data Ana
-Smith,427,18366,0.75,2,0,Yes,Data Ana
-Smith,427,18367,2.25,3,0,,Data Ana
-Smith,427,18371,1.75,3,0,,Data Ana
-Smith,427,18372,1,4,1,,Data Ana
-Jones,428,18367,0.75,1,0,Yes,Advising
-Jones,428,18371,0.75,2,0,,Advising
-Jones,428,18373,1,4,1,Yes,Advising
-Brown,430,18367,1.5,1,0,Yes,Study Co
-Brown,430,18371,0.75,2,0,,Study Co
-Brown,430,18373,0.75,2,0,,Study Co
-Brown,430,18378,1.5,4,0,Yes,Study Co
-Brown,430,18379,2.25,4,0,,Study Co
-Brown,430,18381,0.75,4,1,,Study Co
-Jones,431,18371,0.75,1,0,,Advising
-Jones,431,18373,0.75,2,0,,Advising
-Jones,431,18375,0.75,3,0,,Advising
-Jones,431,18378,1.25,4,1,,Advising
-Brown,432,18372,0.75,1,0,,IT/Web D
-Brown,432,18374,1,2,0,,IT/Web D
-Brown,432,18378,0.75,4,0,,IT/Web D
-Brown,432,18380,2.5,4,1,,IT/Web D
-Jones,433,18374,1,1,0,,IT/Web D
-Jones,433,18375,1.25,2,0,,IT/Web D
-Jones,433,18378,1.5,2,0,,IT/Web D
-Jones,433,18380,0.75,2,0,,IT/Web D
-Jones,433,18382,1,2,0,,IT/Web D
-Jones,433,18385,2.5,3,0,,IT/Web D
-Jones,433,18386,0.75,3,0,Yes,IT/Web D
-Jones,433,18399,0.75,3,0,,IT/Web D
-Jones,433,18401,2.25,3,0,,IT/Web D
-Jones,433,18403,0.75,3,0,,IT/Web D
-Jones,433,18406,2,3,0,,IT/Web D
-Jones,433,18407,2.25,4,1,Yes,IT/Web D
-Jones,433,18409,0.75,5,1,Yes,IT/Web D
-Smith,434,18375,1.25,1,0,,Study Co
-Smith,434,18378,2,2,0,Yes,Study Co
-Smith,434,18380,0.75,2,0,,Study Co
-Smith,434,18382,2,2,0,,Study Co
-Smith,434,18385,0.75,2,0,,Study Co
-Smith,434,18387,,2,0,,Study Co
-Smith,434,18399,1.75,3,0,,Study Co
-Smith,434,18400,2.25,3,0,Yes,Study Co
-Smith,434,18402,1.25,3,0,,Study Co
-Smith,434,18403,2.25,3,0,,Study Co
-Smith,434,18406,1,3,0,,Study Co
-Smith,434,18408,1.25,3,0,,Study Co
-Smith,434,18410,1,3,0,,Study Co
-Smith,434,18414,2,3,0,,Study Co
-Smith,434,18416,2.5,3,0,,Study Co
-Smith,434,18417,1.25,3,0,,Study Co
-Smith,434,18420,1,3,0,,Study Co
-Smith,434,18422,2,3,0,,Study Co
-Smith,434,18423,1.5,3,0,,Study Co
-Smith,434,18424,3,3,0,,Study Co
-Smith,434,18427,1.25,3,0,,Study Co
-Smith,434,18430,2,4,0,,Study Co
-Smith,434,18434,2,4,1,Yes,Study Co
-Smith,435,18379,1,1,0,,IT/Web D
-Smith,435,18380,1,2,0,,IT/Web D
-Smith,435,18382,2,2,0,,IT/Web D
-Smith,435,18385,0.75,2,0,,IT/Web D
-Smith,435,18387,1.75,2,0,,IT/Web D
-Smith,435,18399,0.75,2,0,,IT/Web D
-Smith,435,18401,3,3,0,Yes,IT/Web D
-Smith,435,18402,1,4,1,,IT/Web D
-Jones,436,18382,0.75,1,0,,Data Ana
-Jones,436,18385,0.75,2,0,,Data Ana
-Jones,436,18386,2,3,0,,Data Ana
-Jones,436,18387,1,4,1,,Data Ana
-Brown,437,18385,0.75,1,0,Yes,Data Ana
-Brown,437,18387,0.75,2,0,,Data Ana
-Brown,437,18399,0.75,2,0,,Data Ana
-Brown,437,18400,2.25,3,0,,Data Ana
-Brown,437,18401,1,4,1,,Data Ana
-Brown,438,18386,1,1,0,,Advising
-Brown,438,18399,0.75,2,0,,Advising
-Brown,438,18400,1,3,0,,Advising
-Brown,438,18401,1,4,1,,Advising
-Jones,439,18387,1,1,0,,Study Co
-Jones,439,18399,1.25,2,0,,Study Co
-Jones,439,18401,1,2,0,,Study Co
-Jones,439,18403,1.25,2,0,,Study Co
-Jones,439,18406,1,2,0,,Study Co
-Jones,439,18407,3,3,0,,Study Co
-Jones,439,18409,2.5,,0,,Study Co
-Jones,439,18410,0.75,3,0,,Study Co
-Jones,439,18414,2,3,0,,Study Co
-Jones,439,18416,1,3,0,,Study Co
-Jones,439,18417,2.75,3,0,,Study Co
-Jones,439,18420,1.5,,0,,Study Co
-Jones,439,18421,1.5,,0,,Study Co
-Jones,439,18423,2.25,3,0,,Study Co
-Jones,439,18424,1.75,3,0,,Study Co
-Jones,439,18427,0.75,3,0,,Study Co
-Jones,439,18428,2.25,3,0,Yes,Study Co
-Jones,439,18431,2.25,4,1,Yes,Study Co
-Jones,440,18399,1,1,0,Yes,Data Ana
-Jones,440,18400,0.75,4,1,,Data Ana
-Brown,441,18399,0.75,1,0,,Advising
-Brown,441,18401,0.75,2,0,,Advising
-Brown,441,18402,1,3,0,,Advising
-Brown,441,18406,1.25,4,1,,Advising
-Brown,442,18401,1.75,1,0,,Study Co
-Brown,442,18403,1.5,2,0,,Study Co
-Brown,442,18406,1.75,2,0,,Study Co
-Brown,442,18407,1.75,2,0,,Study Co
-Brown,442,18409,2.5,3,0,Yes,Study Co
-Brown,442,18414,2.25,3,0,,Study Co
-Brown,442,18416,1.25,3,0,,Study Co
-Brown,442,18420,2.5,3,0,,Study Co
-Brown,442,18422,3,3,0,,Study Co
-Brown,442,18424,1.75,3,0,,Study Co
-Brown,442,18427,2.5,3,0,,Study Co
-Brown,442,18428,1.25,3,0,,Study Co
-Brown,442,18430,2.75,3,0,,Study Co
-Brown,442,18431,1.25,3,0,,Study Co
-Brown,442,18434,0.75,3,0,,Study Co
-Brown,442,18435,0.75,3,0,,Study Co
-Brown,442,18437,1,3,0,Yes,Study Co
-Brown,442,18441,1.25,4,0,Yes,Study Co
-Brown,442,18444,1.5,4,1,,Study Co
-Brown,443,18406,1,1,0,,Data Ana
-Brown,443,18407,0.75,2,0,,Data Ana
-Brown,443,18408,0.75,2,0,,Data Ana
-Brown,443,18409,0.75,3,0,,Data Ana
-Brown,443,18410,1,4,1,,Data Ana
-Brown,443,18414,0.75,5,1,Yes,Data Ana
-Smith,444,18409,0.75,1,0,,Advising
-Smith,444,18410,0.75,2,0,,Advising
-Smith,444,18414,0.75,3,0,,Advising
-Smith,444,18415,0.75,4,1,,Advising
-Jones,445,18410,1.5,1,0,,IT/Web D
-Jones,445,18414,1,2,0,,IT/Web D
-Jones,445,18415,1.75,2,0,Yes,IT/Web D
-Jones,445,18416,2,2,0,,IT/Web D
-Jones,445,18417,1.5,2,0,,IT/Web D
-Jones,445,18420,2,2,0,,IT/Web D
-Jones,445,18422,3,3,0,Yes,IT/Web D
-Jones,445,18423,3,3,0,,IT/Web D
-Jones,445,18427,1.75,3,0,,IT/Web D
-Jones,445,18429,2.75,3,0,,IT/Web D
-Jones,445,18430,2.75,3,0,,IT/Web D
-Jones,445,18434,1.25,3,0,Yes,IT/Web D
-Jones,445,18436,1,3,0,,IT/Web D
-Jones,445,18437,2.25,3,0,,IT/Web D
-Jones,445,18438,1.75,4,1,Yes,IT/Web D
-Jones,445,18441,0.75,5,1,,IT/Web D
-Brown,446,18414,0.75,1,0,,Data Ana
-Brown,446,18415,0.75,2,0,,Data Ana
-Brown,446,18416,0.75,2,0,,Data Ana
-Brown,446,18420,0.75,2,0,,Data Ana
-Brown,446,18421,1.5,3,0,,Data Ana
-Brown,446,18424,2,3,0,Yes,Data Ana
-Brown,446,18427,2,3,0,,Data Ana
-Brown,446,18428,1.75,3,0,,Data Ana
-Brown,446,18429,0.75,4,1,,Data Ana
-Smith,447,18416,0.75,1,0,,Data Ana
-Smith,447,18417,2.25,3,0,,Data Ana
-Smith,447,18420,1,4,1,,Data Ana
-Brown,448,18420,1,1,0,,Data Ana
-Brown,448,18422,0.75,2,0,,Data Ana
-Brown,448,18423,0.75,2,0,,Data Ana
-Brown,448,18424,1.5,3,0,Yes,Data Ana
-Brown,448,18427,2.25,3,0,,Data Ana
-Brown,448,18429,2.75,3,0,,Data Ana
-Brown,448,18430,3,3,0,,Data Ana
-Brown,448,18434,1,4,1,,Data Ana
-Brown,448,18435,1,5,1,,Data Ana
-Smith,450,18422,1.25,1,0,Yes,IT/Web D
-Smith,450,18423,1.25,2,0,,IT/Web D
-Smith,450,18424,2,3,0,,IT/Web D
-Smith,450,18427,2.75,3,0,,IT/Web D
-Smith,450,18428,2,3,0,,IT/Web D
-Smith,450,18429,1.75,3,0,,IT/Web D
-Smith,450,18430,1,3,0,,IT/Web D
-Smith,450,18434,1.25,3,0,,IT/Web D
-Smith,450,18436,1,3,0,,IT/Web D
-Smith,450,18438,2.75,3,0,,IT/Web D
-Smith,450,18441,0.75,4,0,,IT/Web D
-Smith,450,18443,2.25,4,1,,IT/Web D
-Smith,450,18444,0.75,5,1,,IT/Web D
-Brown,451,18424,1,1,0,,Data Ana
-Brown,451,18427,0.75,2,0,,Data Ana
-Brown,451,18430,2,3,0,,Data Ana
-Brown,451,18431,2.75,3,0,,Data Ana
-Brown,451,18434,2.5,3,0,Yes,Data Ana
-Brown,451,18435,1,4,1,,Data Ana
-Jones,452,18427,1.75,1,0,,Study Co
-Jones,452,18428,1.5,2,0,,Study Co
-Jones,452,18429,1.5,2,0,,Study Co
-Jones,452,18431,1.75,2,0,Yes,Study Co
-Jones,452,18434,2,2,0,,Study Co
-Jones,452,18436,2.5,3,0,,Study Co
-Jones,452,18438,1.5,3,0,,Study Co
-Jones,452,18441,0.75,3,0,,Study Co
-Jones,452,18443,1.5,3,0,Yes,Study Co
-Jones,452,18445,1,,0,,Study Co
-Jones,452,18449,2,4,1,,Study Co
-Jones,452,18451,2,5,1,,Study Co
-Jones,453,18431,1,1,0,,Advising
-Jones,453,18434,1.25,4,1,,Advising
-Smith,454,18435,2,1,0,,Study Co
-Smith,454,18437,2.75,3,0,Yes,Study Co
-Smith,454,18438,2.25,3,0,,Study Co
-Smith,454,18441,2.5,3,0,,Study Co
-Smith,454,18442,1.25,3,0,,Study Co
-Smith,454,18444,3,3,0,,Study Co
-Smith,454,18445,2.5,3,0,Yes,Study Co
-Smith,454,18449,3,3,0,Yes,Study Co
-Smith,454,18451,1,3,0,,Study Co
-Smith,454,18455,3,3,0,Yes,Study Co
-Smith,454,18456,2.75,3,0,,Study Co
-Smith,454,18457,2.75,3,0,,Study Co
-Smith,454,18458,,3,0,,Study Co
-Smith,454,18462,3,3,0,,Study Co
-Smith,454,18463,1,4,0,,Study Co
-Smith,454,18466,1.5,4,0,,Study Co
-Smith,454,18469,2,4,1,,Study Co
-Brown,455,18437,2,1,0,,Study Co
-Brown,455,18438,3,3,0,,Study Co
-Brown,455,18441,1.5,3,0,,Study Co
-Brown,455,18442,2.75,3,0,,Study Co
-Brown,455,18443,1.5,3,0,Yes,Study Co
-Brown,455,18445,1.25,3,0,,Study Co
-Brown,455,18449,3,3,0,,Study Co
-Brown,455,18452,2,4,0,,Study Co
-Brown,455,18455,1.75,4,0,,Study Co
-Brown,455,18456,2.25,4,0,,Study Co
-Brown,455,18457,2.25,4,1,,Study Co
-Brown,455,18458,2,5,1,,Study Co
-Smith,456,18441,1,1,0,,Advising
-Smith,456,18443,1,3,0,,Advising
-Smith,456,18444,0.75,3,0,,Advising
-Smith,456,18449,1.25,4,1,,Advising
-Jones,457,18445,1.5,1,0,,Study Co
-Jones,457,18449,1.25,3,0,Yes,Study Co
-Jones,457,18450,1.25,3,0,Yes,Study Co
-Jones,457,18451,1.75,3,0,Yes,Study Co
-Jones,457,18452,3,3,0,,Study Co
-Jones,457,18455,1.25,3,0,,Study Co
-Jones,457,18457,0.75,3,0,Yes,Study Co
-Jones,457,18459,1.25,3,0,,Study Co
-Jones,457,18462,0.75,3,0,,Study Co
-Jones,457,18464,2.75,3,0,,Study Co
-Jones,457,18466,0.75,3,0,,Study Co
-Jones,457,18469,1.75,3,0,,Study Co
-Jones,457,18470,0.75,4,0,,Study Co
-Jones,457,18473,1,4,1,,Study Co
-Brown,458,18449,1.25,1,0,,Study Co
-Brown,458,18452,1.5,2,0,,Study Co
-Brown,458,18455,1.25,2,0,,Study Co
-Brown,458,18456,1.25,2,0,,Study Co
-Brown,458,18458,2,2,0,,Study Co
-Brown,458,18462,0.75,2,0,Yes,Study Co
-Brown,458,18465,1.25,2,0,Yes,Study Co
-Brown,458,18469,1,2,0,Yes,Study Co
-Brown,458,18470,1,2,0,,Study Co
-Brown,458,18471,1,2,0,,Study Co
-Brown,458,18473,1,2,0,Yes,Study Co
-Brown,458,18476,1.5,3,0,,Study Co
-Brown,458,18478,1.75,3,0,,Study Co
-Brown,458,18479,2,3,0,,Study Co
-Brown,458,18483,2.5,3,0,Yes,Study Co
-Brown,458,18485,3,,0,,Study Co
-Brown,458,18487,1,3,0,,Study Co
-Brown,458,18490,1.5,3,0,,Study Co
-Brown,458,18491,1.25,3,0,,Study Co
-Brown,458,18493,1,3,0,,Study Co
-Brown,458,18497,3,3,0,,Study Co
-Brown,458,18499,2.5,3,0,,Study Co
-Brown,458,18504,,4,0,,Study Co
-Jones,458,18506,1.5,4,1,,Study Co
-Jones,458,18511,2,5,1,,Study Co
-Brown,459,18452,1.25,1,0,,IT/Web D
-Brown,459,18455,1.75,2,0,,IT/Web D
-Brown,459,18456,,2,0,,IT/Web D
-Brown,459,18458,0.75,2,0,,IT/Web D
-Brown,459,18459,2.25,3,0,Yes,IT/Web D
-Brown,459,18462,0.75,3,0,,IT/Web D
-Brown,459,18463,3,3,0,,IT/Web D
-Brown,459,18464,1,3,0,,IT/Web D
-Brown,459,18465,1,3,0,,IT/Web D
-Brown,459,18466,2.75,3,0,,IT/Web D
-Brown,459,18469,1,3,0,,IT/Web D
-Brown,459,18470,2.25,3,0,,IT/Web D
-Brown,459,18471,2.5,4,1,Yes,IT/Web D
-Brown,459,18473,0.75,5,1,,IT/Web D
-Jones,460,18455,1.5,1,0,Yes,IT/Web D
-Jones,460,18456,1.5,3,0,,IT/Web D
-Jones,460,18457,1.75,3,0,,IT/Web D
-Jones,460,18458,,3,0,,IT/Web D
-Jones,460,18462,1.75,3,0,,IT/Web D
-Jones,460,18463,1,3,0,,IT/Web D
-Jones,460,18464,2.5,3,0,,IT/Web D
-Jones,460,18466,0.75,3,0,Yes,IT/Web D
-Jones,460,18469,1.5,3,0,,IT/Web D
-Jones,460,18471,1.5,4,1,,IT/Web D
-Smith,461,18456,0.75,1,0,Yes,Data Ana
-Smith,461,18458,2.75,3,0,,Data Ana
-Smith,461,18462,2.75,3,0,,Data Ana
-Smith,461,18463,1.75,3,0,,Data Ana
-Smith,461,18465,1,4,1,Yes,Data Ana
-Smith,461,18469,0.75,5,1,,Data Ana
-Jones,463,18462,0.75,1,0,,Advising
-Jones,463,18463,0.75,2,0,,Advising
-Jones,463,18465,1.25,4,1,,Advising
-Smith,464,18462,1,1,0,,Study Co
-Smith,464,18464,0.75,2,0,,Study Co
-Smith,464,18469,1,,0,,Study Co
-Smith,464,18470,1,2,0,,Study Co
-Smith,464,18472,1.25,2,0,,Study Co
-Smith,464,18473,1,2,0,Yes,Study Co
-Smith,464,18476,2,2,0,Yes,Study Co
-Smith,464,18477,1,2,0,,Study Co
-Smith,464,18479,1.75,2,0,,Study Co
-Smith,464,18480,2.5,3,0,,Study Co
-Smith,464,18483,0.75,3,0,,Study Co
-Smith,464,18484,3,3,0,Yes,Study Co
-Smith,464,18486,0.75,3,0,,Study Co
-Smith,464,18487,1,4,0,,Study Co
-Smith,464,18490,1.75,4,0,,Study Co
-Smith,464,18491,2.25,4,0,,Study Co
-Smith,464,18494,1.5,4,1,Yes,Study Co
-Brown,465,18463,1,1,0,,Advising
-Brown,465,18464,0.75,2,0,Yes,Advising
-Brown,465,18466,0.75,3,0,,Advising
-Brown,465,18469,1.25,4,1,,Advising
-Brown,465,18470,1,5,1,,Advising
-Jones,466,18466,0.75,1,0,Yes,Data Ana
-Jones,466,18469,1,3,0,,Data Ana
-Jones,466,18470,1,4,1,Yes,Data Ana
-Jones,467,18466,1,1,0,,Data Ana
-Jones,467,18469,0.75,2,0,,Data Ana
-Jones,467,18472,1.75,3,0,,Data Ana
-Jones,467,18476,2.5,3,0,Yes,Data Ana
-Jones,467,18477,0.75,4,1,,Data Ana
-Brown,468,18470,1.25,1,0,,IT/Web D
-Brown,468,18472,0.75,2,0,,IT/Web D
-Brown,468,18473,1.75,2,0,,IT/Web D
-Brown,468,18476,0.75,2,0,,IT/Web D
-Brown,468,18478,2,2,0,,IT/Web D
-Brown,468,18479,1.5,2,0,Yes,IT/Web D
-Brown,468,18483,1.25,3,0,,IT/Web D
-Brown,468,18485,3,3,0,Yes,IT/Web D
-Brown,468,18486,1.75,3,0,,IT/Web D
-Brown,468,18490,1.75,3,0,,IT/Web D
-Brown,468,18491,2.75,3,0,,IT/Web D
-Brown,468,18493,2,3,0,,IT/Web D
-Brown,468,18497,0.75,3,0,Yes,IT/Web D
-Brown,468,18499,2.75,3,0,,IT/Web D
-Brown,468,18501,2,3,0,Yes,IT/Web D
-Brown,468,18504,2.5,4,0,,IT/Web D
-Brown,468,18505,2.25,4,1,,IT/Web D
-Brown,469,18470,1,1,0,,Advising
-Brown,469,18471,0.75,2,0,,Advising
-Brown,469,18472,0.75,3,0,,Advising
-Brown,469,18473,1.25,4,1,,Advising
-Jones,470,18472,0.75,1,0,Yes,Study Co
-Jones,470,18476,1.25,2,0,,Study Co
-Jones,470,18479,2,2,0,,Study Co
-Jones,470,18483,2,2,0,,Study Co
-Jones,470,18486,1.25,2,0,,Study Co
-Jones,470,18490,0.75,2,0,,Study Co
-Jones,470,18493,0.75,2,0,,Study Co
-Jones,470,18497,1.75,2,0,,Study Co
-Jones,470,18499,1.5,2,0,,Study Co
-Jones,470,18504,1.25,2,0,,Study Co
-Jones,470,18506,0.75,2,0,Yes,Study Co
-Jones,470,18508,,3,0,,Study Co
-Jones,470,18511,2,3,0,,Study Co
-Jones,470,18513,2,3,0,Yes,Study Co
-Jones,470,18514,0.75,3,0,,Study Co
-Jones,470,18515,2,3,0,,Study Co
-Jones,470,18518,2.5,3,0,,Study Co
-Jones,470,18519,3,3,0,Yes,Study Co
-Jones,470,18520,1.5,4,0,Yes,Study Co
-Jones,470,18522,1.75,4,0,,Study Co
-Jones,470,18525,1.75,4,1,,Study Co
-Jones,470,18529,1,5,1,Yes,Study Co
-Smith,471,18476,0.75,1,0,,IT/Web D
-Smith,471,18478,1.75,2,0,,IT/Web D
-Smith,471,18479,2.5,3,0,,IT/Web D
-Smith,471,18483,1,3,0,,IT/Web D
-Smith,471,18484,2,3,0,,IT/Web D
-Smith,471,18486,2.25,3,0,,IT/Web D
-Smith,471,18487,1.25,3,0,Yes,IT/Web D
-Smith,471,18490,3,3,0,,IT/Web D
-Smith,471,18491,1,3,0,,IT/Web D
-Smith,471,18493,2,4,1,,IT/Web D
-Smith,472,18479,1,1,0,,Data Ana
-Smith,472,18483,0.75,4,1,,Data Ana
-Smith,472,18484,0.75,5,1,,Data Ana
-Jones,473,18480,0.75,1,0,,Advising
-Jones,473,18483,1,3,0,,Advising
-Jones,473,18484,1,3,0,Yes,Advising
-Jones,473,18485,0.75,,1,,Advising
-Brown,474,18483,1,1,0,,Advising
-Brown,474,18484,1,3,0,,Advising
-Brown,474,18486,1.25,4,1,Yes,Advising
-Jones,475,18486,1,1,0,,Data Ana
-Jones,475,18487,1.75,3,0,Yes,Data Ana
-Jones,475,18490,2.75,3,0,,Data Ana
-Jones,475,18492,0.75,4,1,,Data Ana
-Smith,476,18487,1,1,0,,Data Ana
-Smith,476,18490,0.75,2,0,,Data Ana
-Smith,476,18491,2,3,0,,Data Ana
-Smith,476,18493,1.75,3,0,Yes,Data Ana
-Smith,476,18494,2.75,3,0,,Data Ana
-Smith,476,18497,3,3,0,,Data Ana
-Smith,476,18499,1,4,1,,Data Ana
-Brown,478,18491,0.75,1,0,,Data Ana
-Brown,478,18494,0.75,3,0,,Data Ana
-Brown,478,18497,0.75,4,1,,Data Ana
-Brown,479,18491,0.75,1,0,,Data Ana
-Brown,479,18492,0.75,4,1,,Data Ana
-Smith,480,18493,1,1,0,,Data Ana
-Smith,480,18494,0.75,2,0,,Data Ana
-Smith,480,18497,,2,0,,Data Ana
-Smith,480,18498,1,3,0,,Data Ana
-Smith,480,18501,2,3,0,,Data Ana
-Smith,480,18504,0.75,3,0,,Data Ana
-Smith,480,18505,0.75,4,1,,Data Ana
-Jones,481,18493,0.75,1,0,,IT/Web D
-Jones,481,18497,2,2,0,Yes,IT/Web D
-Jones,481,18499,0.75,2,0,,IT/Web D
-Jones,481,18500,2,3,0,,IT/Web D
-Jones,481,18504,1.25,3,0,Yes,IT/Web D
-Jones,481,18506,2.5,3,0,Yes,IT/Web D
-Jones,481,18507,3,3,0,,IT/Web D
-Jones,481,18511,1.75,3,0,,IT/Web D
-Jones,481,18512,3,3,0,,IT/Web D
-Jones,481,18513,0.75,3,0,,IT/Web D
-Jones,481,18514,2.5,4,0,,IT/Web D
-Jones,481,18518,1,4,1,,IT/Web D
-Jones,482,18497,1,1,0,,Data Ana
-Jones,482,18498,0.75,2,0,,Data Ana
-Jones,482,18499,0.75,2,0,,Data Ana
-Jones,482,18501,0.75,2,0,,Data Ana
-Jones,482,18504,3,3,0,Yes,Data Ana
-Jones,482,18505,2,3,0,,Data Ana
-Jones,482,18508,2,3,0,,Data Ana
-Jones,482,18511,0.75,4,1,,Data Ana
-Brown,483,18498,1,1,0,,Advising
-Brown,483,18499,0.75,2,0,,Advising
-Brown,483,18501,0.75,3,0,,Advising
-Brown,483,18504,1,4,1,,Advising
-Smith,484,18498,0.75,1,0,Yes,Data Ana
-Smith,484,18499,0.75,2,0,,Data Ana
-Smith,484,18501,1.25,3,0,,Data Ana
-Smith,484,18504,2.25,3,0,Yes,Data Ana
-Smith,484,18506,1,4,1,,Data Ana
-Brown,485,18504,0.75,1,0,Yes,Advising
-Jones,485,18506,0.75,2,0,,Advising
-Jones,485,18507,0.75,3,0,,Advising
-Jones,485,18511,0.75,4,1,,Advising
-Brown,486,18505,0.75,1,0,,Data Ana
-Jones,486,18507,0.75,2,0,,Data Ana
-Jones,486,18508,0.75,2,0,,Data Ana
-Jones,486,18511,3,3,0,,Data Ana
-Jones,486,18513,1.75,3,0,,Data Ana
-Jones,486,18515,0.75,4,1,,Data Ana
-Jones,486,18518,0.75,5,1,,Data Ana
-Jones,487,18506,0.75,1,0,,Data Ana
-Jones,487,18508,0.75,2,0,,Data Ana
-Jones,487,18511,0.75,2,0,Yes,Data Ana
-Jones,487,18512,1.25,3,0,,Data Ana
-Jones,487,18515,0.75,3,0,,Data Ana
-Jones,487,18518,0.75,4,1,,Data Ana
-Jones,488,18507,1.75,1,0,,Study Co
-Jones,488,18511,1.75,2,0,,Study Co
-Jones,488,18514,0.75,2,0,,Study Co
-Jones,488,18518,1.5,2,0,,Study Co
-Jones,488,18519,0.75,2,0,,Study Co
-Jones,488,18521,1,2,0,,Study Co
-Smith,488,18522,2,2,0,,Study Co
-Jones,488,18525,1.5,2,0,,Study Co
-Smith,488,18528,2,2,0,,Study Co
-Jones,488,18529,2,2,0,,Study Co
-Jones,488,18532,0.75,3,0,Yes,Study Co
-Jones,488,18533,1.75,3,0,,Study Co
-Jones,488,18534,2,3,0,,Study Co
-Jones,488,18536,0.75,3,0,,Study Co
-Jones,488,18539,1,3,0,,Study Co
-Jones,488,18540,2.5,3,0,,Study Co
-Jones,488,18541,1.5,3,0,,Study Co
-Jones,488,18543,1.75,3,0,Yes,Study Co
-Jones,488,18548,2.25,3,0,,Study Co
-Jones,488,18549,1.5,4,1,,Study Co
-Jones,489,18508,1,1,0,Yes,IT/Web D
-Jones,489,18511,1.25,2,0,,IT/Web D
-Jones,489,18513,2,2,0,,IT/Web D
-Jones,489,18514,2.25,3,0,,IT/Web D
-Jones,489,18515,2.75,3,0,Yes,IT/Web D
-Brown,489,18518,1,,0,,IT/Web D
-Jones,489,18519,1.25,4,1,,IT/Web D
-Jones,489,18520,1,5,1,,IT/Web D
-Jones,490,18511,1,1,0,,IT/Web D
-Jones,490,18512,2,2,0,,IT/Web D
-Jones,490,18514,1.75,2,0,,IT/Web D
-Jones,490,18515,0.75,2,0,,IT/Web D
-Jones,490,18518,2,3,0,Yes,IT/Web D
-Jones,490,18519,1,4,0,,IT/Web D
-Jones,490,18520,2.25,4,1,,IT/Web D
-Smith,490,18521,0.75,5,1,,IT/Web D
-Jones,491,18512,0.75,1,0,,Advising
-Jones,491,18514,1.25,4,1,,Advising
-Jones,493,18518,0.75,1,0,,Data Ana
-Jones,493,18520,0.75,2,0,,Data Ana
-Jones,493,18525,2,3,0,,Data Ana
-Jones,493,18526,1,4,1,,Data Ana
-Jones,494,18519,1,1,0,,Advising
-Jones,494,18521,1,3,0,,Advising
-Jones,494,18525,1,3,0,Yes,Advising
-Jones,494,18526,0.75,4,1,,Advising
-Jones,495,18522,0.75,1,0,Yes,Advising
-Jones,495,18525,0.75,2,0,,Advising
-Jones,495,18526,1,4,1,,Advising
-Jones,496,18525,1.5,1,0,,IT/Web D
-Jones,496,18527,0.75,2,0,,IT/Web D
-Jones,496,18529,2.25,3,0,,IT/Web D
-Jones,496,18532,1,,0,,IT/Web D
-Jones,496,18534,3,3,0,,IT/Web D
-Jones,496,18535,,3,0,,IT/Web D
-Jones,496,18539,1.25,3,0,,IT/Web D
-Jones,496,18541,3,3,0,,IT/Web D
-Jones,496,18542,1,3,0,,IT/Web D
-Jones,496,18543,1.25,3,0,,IT/Web D
-Jones,496,18548,2.25,3,0,,IT/Web D
-Jones,496,18550,2,4,1,,IT/Web D
-Jones,497,18528,0.75,1,0,,Advising
-Jones,497,18532,0.75,3,0,,Advising
-Jones,497,18533,0.75,3,0,,Advising
-Jones,497,18535,1.25,4,1,,Advising
-Jones,498,18529,1.75,1,0,,Study Co
-Jones,498,18532,0.75,2,0,,Study Co
-Jones,498,18534,2,2,0,,Study Co
-Jones,498,18539,1.5,2,0,,Study Co
-Jones,498,18541,2,2,0,,Study Co
-Jones,498,18548,1.75,2,0,,Study Co
-Smith,498,18553,2,2,0,,Study Co
-Jones,498,18556,1.25,2,0,Yes,Study Co
-Jones,498,18560,0.75,2,0,,Study Co
-Jones,498,18563,1.5,2,0,Yes,Study Co
-Jones,498,18567,1.75,3,0,,Study Co
-Jones,498,18569,2.5,3,0,,Study Co
-Jones,498,18570,1.25,3,0,,Study Co
-Jones,499,18529,1.5,1,0,Yes,IT/Web D
-Jones,499,18532,1.75,2,0,,IT/Web D
-Jones,499,18534,1.75,2,0,,IT/Web D
-Jones,499,18535,1.25,2,0,,IT/Web D
-Jones,499,18536,2.5,3,0,,IT/Web D
-Jones,499,18539,0.75,4,0,Yes,IT/Web D
-Brown,499,18540,1.25,4,1,,IT/Web D
-Jones,500,18533,0.75,1,0,,Advising
-Jones,500,18534,0.75,2,0,,Advising
-Jones,500,18536,1,3,0,,Advising
-Jones,500,18539,0.75,4,1,,Advising
-Jones,501,18536,1.75,1,0,,Study Co
-Jones,501,18539,2,2,0,,Study Co
-Jones,501,18541,2.5,3,0,Yes,Study Co
-Jones,501,18543,2,4,0,,Study Co
-Jones,501,18548,2.5,4,0,,Study Co
-Brown,501,18550,1.5,4,0,,Study Co
-Jones,501,18553,1,4,1,,Study Co
-Jones,501,18557,1.25,5,1,,Study Co
-Jones,502,18540,1,1,0,,Advising
-Jones,502,18541,0.75,2,0,,Advising
-Jones,502,18543,0.75,3,0,Yes,Advising
-Jones,502,18548,1,3,0,,Advising
-Jones,502,18550,1,4,1,,Advising
-Jones,502,18553,1,5,1,,Advising
-Jones,503,18542,0.75,1,0,,Advising
-Jones,503,18548,0.75,2,0,Yes,Advising
-Jones,503,18549,1.25,4,1,,Advising
-Jones,504,18548,0.75,1,0,,IT/Web D
-Jones,504,18549,1.75,2,0,,IT/Web D
-Jones,504,18553,2,2,0,,IT/Web D
-Jones,504,18554,1.25,2,0,Yes,IT/Web D
-Brown,504,18555,2,2,0,,IT/Web D
-Jones,504,18556,1.25,2,0,,IT/Web D
-Jones,504,18557,1,3,0,,IT/Web D
-Jones,504,18560,2.75,3,0,Yes,IT/Web D
-Jones,504,18561,1.25,3,0,Yes,IT/Web D
-Jones,504,18562,1.5,3,0,,IT/Web D
-Jones,504,18563,0.75,3,0,,IT/Web D
-Jones,504,18564,2.75,3,0,,IT/Web D
-Jones,504,18567,2.25,3,0,,IT/Web D
-Jones,504,18569,2.5,3,0,,IT/Web D
-Jones,505,18553,1.5,1,0,,IT/Web D
-Jones,505,18554,1.5,2,0,,IT/Web D
-Jones,505,18555,1.5,2,0,,IT/Web D
-Jones,505,18557,1.25,2,0,,IT/Web D
-Jones,505,18560,1.25,2,0,,IT/Web D
-Jones,505,18562,0.75,2,0,,IT/Web D
-Jones,505,18564,2.75,3,0,,IT/Web D
-Jones,505,18567,0.75,3,0,,IT/Web D
-Jones,505,18569,2.5,3,0,,IT/Web D
-Jones,506,18554,0.75,1,0,,Advising
-Jones,506,18555,1,3,0,,Advising
-Jones,506,18557,1,3,0,,Advising
-Jones,506,18560,1,4,1,Yes,Advising
-Jones,507,18557,0.75,1,0,,Advising
-Jones,507,18560,0.75,2,0,Yes,Advising
-Jones,507,18561,1,3,0,,Advising
-Jones,507,18562,0.75,3,0,Yes,Advising
-Jones,507,18563,1.25,4,1,,Advising
-Jones,508,18557,1,1,0,,Advising
-Jones,508,18560,0.75,2,0,,Advising
-Jones,508,18562,0.75,3,0,,Advising
-Jones,508,18564,1,4,1,,Advising
-Jones,509,18557,0.75,1,0,,IT/Web D
-Jones,509,18560,1.75,2,0,,IT/Web D
-Jones,509,18561,1.5,2,0,,IT/Web D
-Brown,509,18563,1.5,2,0,,IT/Web D
-Jones,509,18567,0.75,2,0,,IT/Web D
-Jones,509,18568,1.75,3,0,,IT/Web D
-Jones,509,18569,2.5,3,0,,IT/Web D
-Jones,509,18570,1.5,3,0,,IT/Web D
-Jones,510,18560,1,1,0,,Advising
-Jones,510,18561,0.75,2,0,,Advising
-Jones,510,18563,0.75,3,0,,Advising
-Jones,510,18567,1,4,1,,Advising
-Jones,511,18561,0.75,1,0,,IT/Web D
-Jones,511,18563,1.5,2,0,,IT/Web D
-Jones,511,18564,0.75,2,0,,IT/Web D
-Jones,511,18567,2,2,0,,IT/Web D
-Jones,511,18568,0.75,2,0,,IT/Web D
-Jones,511,18570,1.75,2,0,,IT/Web D
-Jones,512,18564,1,1,0,,IT/Web D
-Jones,512,18567,0.75,2,0,,IT/Web D
-Jones,512,18569,1,3,0,,IT/Web D
-Jones,513,18564,,1,0,,Advising
-Jones,513,18567,1,4,1,,Advising
-Jones,514,18568,0.75,1,0,,Advising
-Jones,514,18569,0.75,2,0,,Advising
-Jones,514,18570,0.75,4,1,,Advising
+Consultant,Project Number,Date,Hours Worked,Phase,Complete,Corrections Made,Project Type
+Smith,399,1/22/2010,0.75,1,0,,Advising
+Smith,399,1/25/2010,0.75,3,0,,Advising
+Smith,399,1/26/2010,0.75,3,0,Yes,Advising
+Smith,399,1/28/2010,1.25,4,1,,Advising
+Brown,400,1/26/2010,1,1,0,,IT/Web D
+Brown,400,1/28/2010,1,2,0,,IT/Web D
+Brown,400,2/1/2010,1.25,3,0,Yes,IT/Web D
+Brown,400,2/3/2010,1,3,0,,IT/Web D
+Brown,400,2/5/2010,2.5,3,0,,IT/Web D
+Brown,400,2/8/2010,3,3,0,,IT/Web D
+Brown,400,2/10/2010,0.75,3,0,,IT/Web D
+Brown,400,2/11/2010,3,3,0,,IT/Web D
+Brown,400,2/12/2010,2.25,3,0,Yes,IT/Web D
+Brown,400,2/15/2010,1,3,0,,IT/Web D
+Brown,400,2/16/2010,2.5,3,0,,IT/Web D
+Brown,400,2/17/2010,2.25,4,1,,IT/Web D
+Brown,400,2/19/2010,1,5,1,,IT/Web D
+Smith,401,1/27/2010,1,1,0,,Data Ana
+Smith,401,1/28/2010,0.75,2,0,,Data Ana
+Smith,401,2/1/2010,0.75,3,0,,Data Ana
+Smith,401,2/3/2010,2,3,0,,Data Ana
+Smith,401,2/4/2010,1,4,1,,Data Ana
+Smith,402,2/1/2010,0.75,1,0,,Data Ana
+Smith,402,2/4/2010,2.5,3,0,,Data Ana
+Smith,402,2/8/2010,0.75,4,1,,Data Ana
+Jones,403,2/5/2010,1.5,1,0,,Study Co
+Jones,403,2/8/2010,1.75,2,0,,Study Co
+Jones,403,2/9/2010,1.25,2,0,,Study Co
+Jones,403,2/10/2010,1,3,0,,Study Co
+Jones,403,2/11/2010,2.75,3,0,Yes,Study Co
+Jones,403,2/15/2010,1.75,3,0,Yes,Study Co
+Jones,403,2/17/2010,1.75,3,0,,Study Co
+Jones,403,2/19/2010,2.75,3,0,,Study Co
+Jones,403,2/22/2010,2.75,3,0,,Study Co
+Jones,403,2/24/2010,1.25,3,0,,Study Co
+Jones,403,2/25/2010,2.5,3,0,,Study Co
+Jones,403,2/26/2010,1.5,3,0,,Study Co
+Jones,403,3/1/2010,3,3,0,Yes,Study Co
+Jones,403,3/3/2010,1.75,3,0,,Study Co
+Jones,403,3/5/2010,1.25,3,0,,Study Co
+Jones,403,3/15/2010,2.25,4,1,,Study Co
+Smith,404,2/9/2010,1.5,1,0,,IT/Web D
+Smith,404,2/10/2010,1.75,2,0,,IT/Web D
+Smith,404,2/11/2010,1,2,0,,IT/Web D
+Smith,404,2/12/2010,0.75,2,0,Yes,IT/Web D
+Smith,404,2/15/2010,0.75,2,0,,IT/Web D
+Smith,404,2/16/2010,2,2,0,,IT/Web D
+Smith,404,2/17/2010,1.5,3,0,,IT/Web D
+Smith,404,2/19/2010,1.75,3,0,,IT/Web D
+Smith,404,2/22/2010,3,3,0,,IT/Web D
+Smith,404,2/24/2010,1.25,3,0,,IT/Web D
+Smith,404,2/25/2010,2.25,3,0,,IT/Web D
+Smith,404,3/1/2010,1.5,3,0,,IT/Web D
+Smith,404,3/2/2010,1.25,3,0,,IT/Web D
+Smith,404,3/3/2010,3,3,0,,IT/Web D
+Smith,404,3/4/2010,1.5,3,0,,IT/Web D
+Smith,404,3/15/2010,2.75,3,0,,IT/Web D
+Smith,404,3/17/2010,0.75,3,0,Yes,IT/Web D
+Smith,404,3/18/2010,1.25,3,0,,IT/Web D
+Smith,404,3/22/2010,1,4,1,,IT/Web D
+Smith,404,3/23/2010,0.75,5,1,,IT/Web D
+Brown,405,2/10/2010,1,1,0,,Advising
+Brown,405,2/12/2010,0.75,3,0,,Advising
+Brown,405,2/15/2010,1,4,1,,Advising
+Brown,406,2/12/2010,1,1,0,,Advising
+Brown,406,2/15/2010,1,3,0,,Advising
+Brown,406,2/16/2010,0.75,3,0,,Advising
+Brown,406,2/17/2010,1.25,4,1,,Advising
+Jones,407,2/15/2010,0.75,1,0,,Data Ana
+Jones,407,2/16/2010,0.75,2,0,,Data Ana
+Jones,407,2/19/2010,2.75,3,0,,Data Ana
+Jones,407,2/22/2010,0.75,3,0,,Data Ana
+Jones,407,2/25/2010,1,3,0,,Data Ana
+Jones,407,3/1/2010,0.75,4,1,,Data Ana
+Brown,408,2/17/2010,0.75,1,0,,Data Ana
+Brown,408,2/19/2010,0.75,2,0,,Data Ana
+Brown,408,2/22/2010,0.75,2,0,,Data Ana
+Brown,408,2/24/2010,0.75,2,0,,Data Ana
+Brown,408,2/25/2010,1.25,3,0,,Data Ana
+Brown,408,3/1/2010,1.25,3,0,,Data Ana
+Brown,408,3/3/2010,0.75,4,1,,Data Ana
+Jones,409,2/18/2010,0.75,1,0,,Data Ana
+Jones,409,2/22/2010,0.75,2,0,,Data Ana
+Jones,409,2/23/2010,0.75,2,0,,Data Ana
+Jones,409,2/26/2010,2.25,3,0,,Data Ana
+Jones,409,3/1/2010,0.75,4,1,,Data Ana
+Jones,409,3/3/2010,1,5,1,,Data Ana
+Brown,410,2/18/2010,1,1,0,,Data Ana
+Brown,410,2/19/2010,0.75,2,0,,Data Ana
+Brown,410,2/22/2010,0.75,2,0,,Data Ana
+Brown,410,2/23/2010,1,4,1,,Data Ana
+Brown,410,2/24/2010,0.75,5,1,,Data Ana
+Smith,411,2/22/2010,0.75,1,0,,Data Ana
+Smith,411,2/23/2010,0.75,2,0,,Data Ana
+Smith,411,2/24/2010,0.75,2,0,,Data Ana
+Smith,411,2/26/2010,0.75,2,0,,Data Ana
+Smith,411,3/1/2010,2.25,3,0,,Data Ana
+Smith,411,3/4/2010,2.25,3,0,,Data Ana
+Smith,411,3/15/2010,1.25,3,0,,Data Ana
+Smith,411,3/16/2010,1,4,1,,Data Ana
+Brown,412,2/24/2010,1,1,0,,Advising
+Brown,412,2/25/2010,0.75,2,0,,Advising
+Brown,412,2/26/2010,0.75,3,0,,Advising
+Brown,412,3/1/2010,0.75,4,1,Yes,Advising
+Brown,412,3/3/2010,0.75,5,1,,Advising
+Jones,413,2/26/2010,1.5,1,0,Yes,Study Co
+Jones,413,3/1/2010,2,2,0,,Study Co
+Jones,413,3/3/2010,1,2,0,,Study Co
+Jones,413,3/4/2010,2,2,0,,Study Co
+Jones,413,3/15/2010,1.25,2,0,Yes,Study Co
+Jones,413,3/18/2010,1,2,0,,Study Co
+Jones,413,3/22/2010,2,2,0,,Study Co
+Jones,413,3/25/2010,1.25,2,0,,Study Co
+Jones,413,3/26/2010,0.75,3,0,,Study Co
+Jones,413,3/29/2010,2.25,3,0,Yes,Study Co
+Jones,413,4/1/2010,1.75,4,0,,Study Co
+Jones,413,4/5/2010,1.5,4,1,,Study Co
+Brown,414,3/1/2010,1.5,1,0,,IT/Web D
+Brown,414,3/3/2010,1,2,0,Yes,IT/Web D
+Brown,414,3/5/2010,1.5,2,0,,IT/Web D
+Brown,414,3/15/2010,1.25,2,0,,IT/Web D
+Brown,414,3/16/2010,1.5,2,0,Yes,IT/Web D
+Brown,414,3/18/2010,0.75,3,0,,IT/Web D
+Brown,414,3/22/2010,1.25,3,0,,IT/Web D
+Brown,414,3/24/2010,2.5,3,0,,IT/Web D
+Brown,414,3/25/2010,1,3,0,Yes,IT/Web D
+Brown,414,3/29/2010,1.5,3,0,,IT/Web D
+Brown,414,3/30/2010,2.25,3,0,,IT/Web D
+Brown,414,4/1/2010,2.75,3,0,Yes,IT/Web D
+Brown,414,4/2/2010,3,3,0,,IT/Web D
+Brown,414,4/5/2010,0.75,3,0,,IT/Web D
+Brown,414,4/6/2010,1.25,3,0,,IT/Web D
+Brown,414,4/7/2010,1.75,3,0,,IT/Web D
+Brown,414,4/9/2010,1,4,0,,IT/Web D
+Brown,414,4/12/2010,1,4,1,,IT/Web D
+Brown,415,3/5/2010,1.5,1,0,,Study Co
+Brown,415,3/15/2010,2,2,0,,Study Co
+Brown,415,3/16/2010,0.75,2,0,,Study Co
+Brown,415,3/17/2010,1.5,2,0,Yes,Study Co
+Brown,415,3/18/2010,1.5,2,0,,Study Co
+Brown,415,3/22/2010,0.75,2,0,,Study Co
+Brown,415,3/24/2010,1.75,3,0,,Study Co
+Brown,415,3/26/2010,,3,0,,Study Co
+Brown,415,3/29/2010,1.25,3,0,,Study Co
+Brown,415,3/30/2010,2.5,3,0,Yes,Study Co
+Brown,415,3/31/2010,2.75,3,0,,Study Co
+Brown,415,4/1/2010,2.25,3,0,,Study Co
+Brown,415,4/5/2010,1.75,3,0,,Study Co
+Brown,415,4/6/2010,2,3,0,,Study Co
+Brown,415,4/8/2010,2.75,3,0,,Study Co
+Brown,415,4/12/2010,1,3,0,,Study Co
+Brown,415,4/13/2010,2.5,3,0,,Study Co
+Brown,415,4/14/2010,1,3,0,Yes,Study Co
+Brown,415,4/16/2010,2.5,3,0,,Study Co
+Brown,415,4/19/2010,1.25,4,0,,Study Co
+Brown,415,4/21/2010,1.25,4,0,,Study Co
+Brown,415,4/23/2010,1,4,0,,Study Co
+Brown,415,4/26/2010,2.25,4,1,Yes,Study Co
+Brown,415,4/30/2010,1,5,1,,Study Co
+Smith,416,3/15/2010,0.75,1,0,,Advising
+Smith,416,3/17/2010,0.75,3,0,,Advising
+Smith,416,3/18/2010,1.25,4,1,,Advising
+Jones,417,3/15/2010,1.5,1,0,,IT/Web D
+Jones,417,3/16/2010,2,2,0,,IT/Web D
+Jones,417,3/17/2010,0.75,2,0,,IT/Web D
+Jones,417,3/18/2010,1.25,2,0,,IT/Web D
+Jones,417,3/22/2010,1.5,2,0,Yes,IT/Web D
+Jones,417,3/24/2010,1.75,2,0,,IT/Web D
+Jones,417,3/26/2010,2.5,3,0,,IT/Web D
+Jones,417,3/29/2010,2,3,0,,IT/Web D
+Jones,417,3/30/2010,2.75,3,0,,IT/Web D
+Jones,417,3/31/2010,1,3,0,,IT/Web D
+Jones,417,4/2/2010,2.75,3,0,Yes,IT/Web D
+Jones,417,4/5/2010,3,3,0,,IT/Web D
+Jones,417,4/6/2010,2,3,0,Yes,IT/Web D
+Jones,417,4/8/2010,2.75,3,0,,IT/Web D
+Jones,417,4/9/2010,1,3,0,,IT/Web D
+Jones,417,4/12/2010,2.25,4,0,,IT/Web D
+Jones,417,4/13/2010,2,4,1,,IT/Web D
+Jones,418,3/16/2010,1,1,0,,IT/Web D
+Jones,418,3/17/2010,0.75,2,0,,IT/Web D
+Jones,418,3/18/2010,1.75,2,0,,IT/Web D
+Jones,418,3/22/2010,1,2,0,,IT/Web D
+Jones,418,3/23/2010,1.25,2,0,,IT/Web D
+Jones,418,3/24/2010,1,2,0,,IT/Web D
+Jones,418,3/25/2010,0.75,3,0,,IT/Web D
+Jones,418,3/29/2010,1,3,0,Yes,IT/Web D
+Jones,418,3/30/2010,3,3,0,,IT/Web D
+Jones,418,4/1/2010,2.5,3,0,,IT/Web D
+Jones,418,4/5/2010,2.25,3,0,,IT/Web D
+Jones,418,4/6/2010,2,4,0,,IT/Web D
+Jones,418,4/8/2010,0.75,4,1,,IT/Web D
+Smith,419,3/22/2010,0.75,1,0,,Data Ana
+Smith,419,3/24/2010,0.75,2,0,,Data Ana
+Smith,419,3/25/2010,0.75,2,0,,Data Ana
+Smith,419,3/26/2010,0.75,2,0,Yes,Data Ana
+Smith,419,3/29/2010,2.25,3,0,,Data Ana
+Smith,419,3/31/2010,1,4,1,,Data Ana
+Brown,420,3/24/2010,1.5,1,0,,IT/Web D
+Brown,420,3/25/2010,1,2,0,Yes,IT/Web D
+Brown,420,3/26/2010,1.5,2,0,,IT/Web D
+Brown,420,3/29/2010,0.75,2,0,,IT/Web D
+Brown,420,3/31/2010,1,2,0,,IT/Web D
+Brown,420,4/2/2010,2.75,3,0,,IT/Web D
+Brown,420,4/5/2010,2.25,3,0,,IT/Web D
+Brown,420,4/6/2010,0.75,3,0,,IT/Web D
+Brown,420,4/7/2010,2.5,3,0,,IT/Web D
+Brown,420,4/8/2010,1.75,4,1,Yes,IT/Web D
+Jones,421,3/29/2010,0.75,1,0,Yes,Data Ana
+Jones,421,3/31/2010,0.75,2,0,,Data Ana
+Jones,421,4/1/2010,0.75,2,0,,Data Ana
+Jones,421,4/5/2010,1.75,3,0,,Data Ana
+Jones,421,4/7/2010,2.5,3,0,,Data Ana
+Jones,421,4/8/2010,1,4,1,,Data Ana
+Brown,422,3/29/2010,1,1,0,Yes,Data Ana
+Brown,422,3/31/2010,0.75,2,0,,Data Ana
+Brown,422,4/5/2010,2,3,0,,Data Ana
+Brown,422,4/6/2010,2.5,3,0,,Data Ana
+Brown,422,4/9/2010,0.75,3,0,,Data Ana
+Brown,422,4/12/2010,1,4,1,,Data Ana
+Smith,423,4/1/2010,1.5,1,0,,Study Co
+Smith,423,4/5/2010,2,2,0,,Study Co
+Smith,423,4/8/2010,0.75,2,0,,Study Co
+Smith,423,4/9/2010,1.5,2,0,,Study Co
+Smith,423,4/12/2010,0.75,2,0,,Study Co
+Smith,423,4/13/2010,1.25,2,0,Yes,Study Co
+Smith,423,4/16/2010,1.25,2,0,Yes,Study Co
+Smith,423,4/19/2010,0.75,3,0,,Study Co
+Smith,423,4/20/2010,2.25,3,0,,Study Co
+Smith,423,4/22/2010,2.5,3,0,,Study Co
+Smith,423,4/23/2010,2.75,3,0,,Study Co
+Smith,423,4/26/2010,2.25,4,0,,Study Co
+Smith,423,4/27/2010,2.5,4,0,Yes,Study Co
+Smith,423,4/28/2010,0.75,4,1,,Study Co
+Smith,424,4/5/2010,0.75,1,0,,IT/Web D
+Smith,424,4/7/2010,1.5,2,0,,IT/Web D
+Smith,424,4/9/2010,1,2,0,,IT/Web D
+Smith,424,4/12/2010,1.75,2,0,,IT/Web D
+Smith,424,4/14/2010,1.25,2,0,,IT/Web D
+Smith,424,4/15/2010,0.75,2,0,,IT/Web D
+Smith,424,4/19/2010,2.25,3,0,,IT/Web D
+Smith,424,4/20/2010,2.5,3,0,Yes,IT/Web D
+Smith,424,4/21/2010,2.75,3,0,,IT/Web D
+Smith,424,4/23/2010,1.5,4,0,,IT/Web D
+Smith,424,4/26/2010,1.75,4,1,,IT/Web D
+Smith,424,4/28/2010,0.75,5,1,,IT/Web D
+Jones,425,4/8/2010,1,1,0,Yes,Advising
+Jones,425,4/12/2010,0.75,4,1,,Advising
+Brown,426,4/8/2010,1,1,0,,Advising
+Brown,426,4/12/2010,1,3,0,Yes,Advising
+Brown,426,4/14/2010,0.75,3,0,,Advising
+Brown,426,4/16/2010,1,4,1,,Advising
+Smith,427,4/12/2010,0.75,1,0,,Data Ana
+Smith,427,4/14/2010,0.75,2,0,Yes,Data Ana
+Smith,427,4/15/2010,2.25,3,0,,Data Ana
+Smith,427,4/19/2010,1.75,3,0,,Data Ana
+Smith,427,4/20/2010,1,4,1,,Data Ana
+Jones,428,4/15/2010,0.75,1,0,Yes,Advising
+Jones,428,4/19/2010,0.75,2,0,,Advising
+Jones,428,4/21/2010,1,4,1,Yes,Advising
+Brown,430,4/15/2010,1.5,1,0,Yes,Study Co
+Brown,430,4/19/2010,0.75,2,0,,Study Co
+Brown,430,4/21/2010,0.75,2,0,,Study Co
+Brown,430,4/26/2010,1.5,4,0,Yes,Study Co
+Brown,430,4/27/2010,2.25,4,0,,Study Co
+Brown,430,4/29/2010,0.75,4,1,,Study Co
+Jones,431,4/19/2010,0.75,1,0,,Advising
+Jones,431,4/21/2010,0.75,2,0,,Advising
+Jones,431,4/23/2010,0.75,3,0,,Advising
+Jones,431,4/26/2010,1.25,4,1,,Advising
+Brown,432,4/20/2010,0.75,1,0,,IT/Web D
+Brown,432,4/22/2010,1,2,0,,IT/Web D
+Brown,432,4/26/2010,0.75,4,0,,IT/Web D
+Brown,432,4/28/2010,2.5,4,1,,IT/Web D
+Jones,433,4/22/2010,1,1,0,,IT/Web D
+Jones,433,4/23/2010,1.25,2,0,,IT/Web D
+Jones,433,4/26/2010,1.5,2,0,,IT/Web D
+Jones,433,4/28/2010,0.75,2,0,,IT/Web D
+Jones,433,4/30/2010,1,2,0,,IT/Web D
+Jones,433,5/3/2010,2.5,3,0,,IT/Web D
+Jones,433,5/4/2010,0.75,3,0,Yes,IT/Web D
+Jones,433,5/17/2010,0.75,3,0,,IT/Web D
+Jones,433,5/19/2010,2.25,3,0,,IT/Web D
+Jones,433,5/21/2010,0.75,3,0,,IT/Web D
+Jones,433,5/24/2010,2,3,0,,IT/Web D
+Jones,433,5/25/2010,2.25,4,1,Yes,IT/Web D
+Jones,433,5/27/2010,0.75,5,1,Yes,IT/Web D
+Smith,434,4/23/2010,1.25,1,0,,Study Co
+Smith,434,4/26/2010,2,2,0,Yes,Study Co
+Smith,434,4/28/2010,0.75,2,0,,Study Co
+Smith,434,4/30/2010,2,2,0,,Study Co
+Smith,434,5/3/2010,0.75,2,0,,Study Co
+Smith,434,5/5/2010,,2,0,,Study Co
+Smith,434,5/17/2010,1.75,3,0,,Study Co
+Smith,434,5/18/2010,2.25,3,0,Yes,Study Co
+Smith,434,5/20/2010,1.25,3,0,,Study Co
+Smith,434,5/21/2010,2.25,3,0,,Study Co
+Smith,434,5/24/2010,1,3,0,,Study Co
+Smith,434,5/26/2010,1.25,3,0,,Study Co
+Smith,434,5/28/2010,1,3,0,,Study Co
+Smith,434,6/1/2010,2,3,0,,Study Co
+Smith,434,6/3/2010,2.5,3,0,,Study Co
+Smith,434,6/4/2010,1.25,3,0,,Study Co
+Smith,434,6/7/2010,1,3,0,,Study Co
+Smith,434,6/9/2010,2,3,0,,Study Co
+Smith,434,6/10/2010,1.5,3,0,,Study Co
+Smith,434,6/11/2010,3,3,0,,Study Co
+Smith,434,6/14/2010,1.25,3,0,,Study Co
+Smith,434,6/17/2010,2,4,0,,Study Co
+Smith,434,6/21/2010,2,4,1,Yes,Study Co
+Smith,435,4/27/2010,1,1,0,,IT/Web D
+Smith,435,4/28/2010,1,2,0,,IT/Web D
+Smith,435,4/30/2010,2,2,0,,IT/Web D
+Smith,435,5/3/2010,0.75,2,0,,IT/Web D
+Smith,435,5/5/2010,1.75,2,0,,IT/Web D
+Smith,435,5/17/2010,0.75,2,0,,IT/Web D
+Smith,435,5/19/2010,3,3,0,Yes,IT/Web D
+Smith,435,5/20/2010,1,4,1,,IT/Web D
+Jones,436,4/30/2010,0.75,1,0,,Data Ana
+Jones,436,5/3/2010,0.75,2,0,,Data Ana
+Jones,436,5/4/2010,2,3,0,,Data Ana
+Jones,436,5/5/2010,1,4,1,,Data Ana
+Brown,437,5/3/2010,0.75,1,0,Yes,Data Ana
+Brown,437,5/5/2010,0.75,2,0,,Data Ana
+Brown,437,5/17/2010,0.75,2,0,,Data Ana
+Brown,437,5/18/2010,2.25,3,0,,Data Ana
+Brown,437,5/19/2010,1,4,1,,Data Ana
+Brown,438,5/4/2010,1,1,0,,Advising
+Brown,438,5/17/2010,0.75,2,0,,Advising
+Brown,438,5/18/2010,1,3,0,,Advising
+Brown,438,5/19/2010,1,4,1,,Advising
+Jones,439,5/5/2010,1,1,0,,Study Co
+Jones,439,5/17/2010,1.25,2,0,,Study Co
+Jones,439,5/19/2010,1,2,0,,Study Co
+Jones,439,5/21/2010,1.25,2,0,,Study Co
+Jones,439,5/24/2010,1,2,0,,Study Co
+Jones,439,5/25/2010,3,3,0,,Study Co
+Jones,439,5/27/2010,2.5,,0,,Study Co
+Jones,439,5/28/2010,0.75,3,0,,Study Co
+Jones,439,6/1/2010,2,3,0,,Study Co
+Jones,439,6/3/2010,1,3,0,,Study Co
+Jones,439,6/4/2010,2.75,3,0,,Study Co
+Jones,439,6/7/2010,1.5,,0,,Study Co
+Jones,439,6/8/2010,1.5,,0,,Study Co
+Jones,439,6/10/2010,2.25,3,0,,Study Co
+Jones,439,6/11/2010,1.75,3,0,,Study Co
+Jones,439,6/14/2010,0.75,3,0,,Study Co
+Jones,439,6/15/2010,2.25,3,0,Yes,Study Co
+Jones,439,6/18/2010,2.25,4,1,Yes,Study Co
+Jones,440,5/17/2010,1,1,0,Yes,Data Ana
+Jones,440,5/18/2010,0.75,4,1,,Data Ana
+Brown,441,5/17/2010,0.75,1,0,,Advising
+Brown,441,5/19/2010,0.75,2,0,,Advising
+Brown,441,5/20/2010,1,3,0,,Advising
+Brown,441,5/24/2010,1.25,4,1,,Advising
+Brown,442,5/19/2010,1.75,1,0,,Study Co
+Brown,442,5/21/2010,1.5,2,0,,Study Co
+Brown,442,5/24/2010,1.75,2,0,,Study Co
+Brown,442,5/25/2010,1.75,2,0,,Study Co
+Brown,442,5/27/2010,2.5,3,0,Yes,Study Co
+Brown,442,6/1/2010,2.25,3,0,,Study Co
+Brown,442,6/3/2010,1.25,3,0,,Study Co
+Brown,442,6/7/2010,2.5,3,0,,Study Co
+Brown,442,6/9/2010,3,3,0,,Study Co
+Brown,442,6/11/2010,1.75,3,0,,Study Co
+Brown,442,6/14/2010,2.5,3,0,,Study Co
+Brown,442,6/15/2010,1.25,3,0,,Study Co
+Brown,442,6/17/2010,2.75,3,0,,Study Co
+Brown,442,6/18/2010,1.25,3,0,,Study Co
+Brown,442,6/21/2010,0.75,3,0,,Study Co
+Brown,442,6/22/2010,0.75,3,0,,Study Co
+Brown,442,6/24/2010,1,3,0,Yes,Study Co
+Brown,442,6/28/2010,1.25,4,0,Yes,Study Co
+Brown,442,7/1/2010,1.5,4,1,,Study Co
+Brown,443,5/24/2010,1,1,0,,Data Ana
+Brown,443,5/25/2010,0.75,2,0,,Data Ana
+Brown,443,5/26/2010,0.75,2,0,,Data Ana
+Brown,443,5/27/2010,0.75,3,0,,Data Ana
+Brown,443,5/28/2010,1,4,1,,Data Ana
+Brown,443,6/1/2010,0.75,5,1,Yes,Data Ana
+Smith,444,5/27/2010,0.75,1,0,,Advising
+Smith,444,5/28/2010,0.75,2,0,,Advising
+Smith,444,6/1/2010,0.75,3,0,,Advising
+Smith,444,6/2/2010,0.75,4,1,,Advising
+Jones,445,5/28/2010,1.5,1,0,,IT/Web D
+Jones,445,6/1/2010,1,2,0,,IT/Web D
+Jones,445,6/2/2010,1.75,2,0,Yes,IT/Web D
+Jones,445,6/3/2010,2,2,0,,IT/Web D
+Jones,445,6/4/2010,1.5,2,0,,IT/Web D
+Jones,445,6/7/2010,2,2,0,,IT/Web D
+Jones,445,6/9/2010,3,3,0,Yes,IT/Web D
+Jones,445,6/10/2010,3,3,0,,IT/Web D
+Jones,445,6/14/2010,1.75,3,0,,IT/Web D
+Jones,445,6/16/2010,2.75,3,0,,IT/Web D
+Jones,445,6/17/2010,2.75,3,0,,IT/Web D
+Jones,445,6/21/2010,1.25,3,0,Yes,IT/Web D
+Jones,445,6/23/2010,1,3,0,,IT/Web D
+Jones,445,6/24/2010,2.25,3,0,,IT/Web D
+Jones,445,6/25/2010,1.75,4,1,Yes,IT/Web D
+Jones,445,6/28/2010,0.75,5,1,,IT/Web D
+Brown,446,6/1/2010,0.75,1,0,,Data Ana
+Brown,446,6/2/2010,0.75,2,0,,Data Ana
+Brown,446,6/3/2010,0.75,2,0,,Data Ana
+Brown,446,6/7/2010,0.75,2,0,,Data Ana
+Brown,446,6/8/2010,1.5,3,0,,Data Ana
+Brown,446,6/11/2010,2,3,0,Yes,Data Ana
+Brown,446,6/14/2010,2,3,0,,Data Ana
+Brown,446,6/15/2010,1.75,3,0,,Data Ana
+Brown,446,6/16/2010,0.75,4,1,,Data Ana
+Smith,447,6/3/2010,0.75,1,0,,Data Ana
+Smith,447,6/4/2010,2.25,3,0,,Data Ana
+Smith,447,6/7/2010,1,4,1,,Data Ana
+Brown,448,6/7/2010,1,1,0,,Data Ana
+Brown,448,6/9/2010,0.75,2,0,,Data Ana
+Brown,448,6/10/2010,0.75,2,0,,Data Ana
+Brown,448,6/11/2010,1.5,3,0,Yes,Data Ana
+Brown,448,6/14/2010,2.25,3,0,,Data Ana
+Brown,448,6/16/2010,2.75,3,0,,Data Ana
+Brown,448,6/17/2010,3,3,0,,Data Ana
+Brown,448,6/21/2010,1,4,1,,Data Ana
+Brown,448,6/22/2010,1,5,1,,Data Ana
+Smith,450,6/9/2010,1.25,1,0,Yes,IT/Web D
+Smith,450,6/10/2010,1.25,2,0,,IT/Web D
+Smith,450,6/11/2010,2,3,0,,IT/Web D
+Smith,450,6/14/2010,2.75,3,0,,IT/Web D
+Smith,450,6/15/2010,2,3,0,,IT/Web D
+Smith,450,6/16/2010,1.75,3,0,,IT/Web D
+Smith,450,6/17/2010,1,3,0,,IT/Web D
+Smith,450,6/21/2010,1.25,3,0,,IT/Web D
+Smith,450,6/23/2010,1,3,0,,IT/Web D
+Smith,450,6/25/2010,2.75,3,0,,IT/Web D
+Smith,450,6/28/2010,0.75,4,0,,IT/Web D
+Smith,450,6/30/2010,2.25,4,1,,IT/Web D
+Smith,450,7/1/2010,0.75,5,1,,IT/Web D
+Brown,451,6/11/2010,1,1,0,,Data Ana
+Brown,451,6/14/2010,0.75,2,0,,Data Ana
+Brown,451,6/17/2010,2,3,0,,Data Ana
+Brown,451,6/18/2010,2.75,3,0,,Data Ana
+Brown,451,6/21/2010,2.5,3,0,Yes,Data Ana
+Brown,451,6/22/2010,1,4,1,,Data Ana
+Jones,452,6/14/2010,1.75,1,0,,Study Co
+Jones,452,6/15/2010,1.5,2,0,,Study Co
+Jones,452,6/16/2010,1.5,2,0,,Study Co
+Jones,452,6/18/2010,1.75,2,0,Yes,Study Co
+Jones,452,6/21/2010,2,2,0,,Study Co
+Jones,452,6/23/2010,2.5,3,0,,Study Co
+Jones,452,6/25/2010,1.5,3,0,,Study Co
+Jones,452,6/28/2010,0.75,3,0,,Study Co
+Jones,452,6/30/2010,1.5,3,0,Yes,Study Co
+Jones,452,7/2/2010,1,,0,,Study Co
+Jones,452,7/6/2010,2,4,1,,Study Co
+Jones,452,7/8/2010,2,5,1,,Study Co
+Jones,453,6/18/2010,1,1,0,,Advising
+Jones,453,6/21/2010,1.25,4,1,,Advising
+Smith,454,6/22/2010,2,1,0,,Study Co
+Smith,454,6/24/2010,2.75,3,0,Yes,Study Co
+Smith,454,6/25/2010,2.25,3,0,,Study Co
+Smith,454,6/28/2010,2.5,3,0,,Study Co
+Smith,454,6/29/2010,1.25,3,0,,Study Co
+Smith,454,7/1/2010,3,3,0,,Study Co
+Smith,454,7/2/2010,2.5,3,0,Yes,Study Co
+Smith,454,7/6/2010,3,3,0,Yes,Study Co
+Smith,454,7/8/2010,1,3,0,,Study Co
+Smith,454,7/12/2010,3,3,0,Yes,Study Co
+Smith,454,7/13/2010,2.75,3,0,,Study Co
+Smith,454,7/14/2010,2.75,3,0,,Study Co
+Smith,454,7/15/2010,,3,0,,Study Co
+Smith,454,7/19/2010,3,3,0,,Study Co
+Smith,454,7/20/2010,1,4,0,,Study Co
+Smith,454,7/23/2010,1.5,4,0,,Study Co
+Smith,454,7/26/2010,2,4,1,,Study Co
+Brown,455,6/24/2010,2,1,0,,Study Co
+Brown,455,6/25/2010,3,3,0,,Study Co
+Brown,455,6/28/2010,1.5,3,0,,Study Co
+Brown,455,6/29/2010,2.75,3,0,,Study Co
+Brown,455,6/30/2010,1.5,3,0,Yes,Study Co
+Brown,455,7/2/2010,1.25,3,0,,Study Co
+Brown,455,7/6/2010,3,3,0,,Study Co
+Brown,455,7/9/2010,2,4,0,,Study Co
+Brown,455,7/12/2010,1.75,4,0,,Study Co
+Brown,455,7/13/2010,2.25,4,0,,Study Co
+Brown,455,7/14/2010,2.25,4,1,,Study Co
+Brown,455,7/15/2010,2,5,1,,Study Co
+Smith,456,6/28/2010,1,1,0,,Advising
+Smith,456,6/30/2010,1,3,0,,Advising
+Smith,456,7/1/2010,0.75,3,0,,Advising
+Smith,456,7/6/2010,1.25,4,1,,Advising
+Jones,457,7/2/2010,1.5,1,0,,Study Co
+Jones,457,7/6/2010,1.25,3,0,Yes,Study Co
+Jones,457,7/7/2010,1.25,3,0,Yes,Study Co
+Jones,457,7/8/2010,1.75,3,0,Yes,Study Co
+Jones,457,7/9/2010,3,3,0,,Study Co
+Jones,457,7/12/2010,1.25,3,0,,Study Co
+Jones,457,7/14/2010,0.75,3,0,Yes,Study Co
+Jones,457,7/16/2010,1.25,3,0,,Study Co
+Jones,457,7/19/2010,0.75,3,0,,Study Co
+Jones,457,7/21/2010,2.75,3,0,,Study Co
+Jones,457,7/23/2010,0.75,3,0,,Study Co
+Jones,457,7/26/2010,1.75,3,0,,Study Co
+Jones,457,7/27/2010,0.75,4,0,,Study Co
+Jones,457,7/30/2010,1,4,1,,Study Co
+Brown,458,7/6/2010,1.25,1,0,,Study Co
+Brown,458,7/9/2010,1.5,2,0,,Study Co
+Brown,458,7/12/2010,1.25,2,0,,Study Co
+Brown,458,7/13/2010,1.25,2,0,,Study Co
+Brown,458,7/15/2010,2,2,0,,Study Co
+Brown,458,7/19/2010,0.75,2,0,Yes,Study Co
+Brown,458,7/22/2010,1.25,2,0,Yes,Study Co
+Brown,458,7/26/2010,1,2,0,Yes,Study Co
+Brown,458,7/27/2010,1,2,0,,Study Co
+Brown,458,7/28/2010,1,2,0,,Study Co
+Brown,458,7/30/2010,1,2,0,Yes,Study Co
+Brown,458,8/2/2010,1.5,3,0,,Study Co
+Brown,458,8/4/2010,1.75,3,0,,Study Co
+Brown,458,8/5/2010,2,3,0,,Study Co
+Brown,458,8/9/2010,2.5,3,0,Yes,Study Co
+Brown,458,8/11/2010,3,,0,,Study Co
+Brown,458,8/13/2010,1,3,0,,Study Co
+Brown,458,8/16/2010,1.5,3,0,,Study Co
+Brown,458,8/17/2010,1.25,3,0,,Study Co
+Brown,458,8/19/2010,1,3,0,,Study Co
+Brown,458,8/23/2010,3,3,0,,Study Co
+Brown,458,8/25/2010,2.5,3,0,,Study Co
+Brown,458,8/30/2010,,4,0,,Study Co
+Jones,458,9/1/2010,1.5,4,1,,Study Co
+Jones,458,9/6/2010,2,5,1,,Study Co
+Brown,459,7/9/2010,1.25,1,0,,IT/Web D
+Brown,459,7/12/2010,1.75,2,0,,IT/Web D
+Brown,459,7/13/2010,,2,0,,IT/Web D
+Brown,459,7/15/2010,0.75,2,0,,IT/Web D
+Brown,459,7/16/2010,2.25,3,0,Yes,IT/Web D
+Brown,459,7/19/2010,0.75,3,0,,IT/Web D
+Brown,459,7/20/2010,3,3,0,,IT/Web D
+Brown,459,7/21/2010,1,3,0,,IT/Web D
+Brown,459,7/22/2010,1,3,0,,IT/Web D
+Brown,459,7/23/2010,2.75,3,0,,IT/Web D
+Brown,459,7/26/2010,1,3,0,,IT/Web D
+Brown,459,7/27/2010,2.25,3,0,,IT/Web D
+Brown,459,7/28/2010,2.5,4,1,Yes,IT/Web D
+Brown,459,7/30/2010,0.75,5,1,,IT/Web D
+Jones,460,7/12/2010,1.5,1,0,Yes,IT/Web D
+Jones,460,7/13/2010,1.5,3,0,,IT/Web D
+Jones,460,7/14/2010,1.75,3,0,,IT/Web D
+Jones,460,7/15/2010,,3,0,,IT/Web D
+Jones,460,7/19/2010,1.75,3,0,,IT/Web D
+Jones,460,7/20/2010,1,3,0,,IT/Web D
+Jones,460,7/21/2010,2.5,3,0,,IT/Web D
+Jones,460,7/23/2010,0.75,3,0,Yes,IT/Web D
+Jones,460,7/26/2010,1.5,3,0,,IT/Web D
+Jones,460,7/28/2010,1.5,4,1,,IT/Web D
+Smith,461,7/13/2010,0.75,1,0,Yes,Data Ana
+Smith,461,7/15/2010,2.75,3,0,,Data Ana
+Smith,461,7/19/2010,2.75,3,0,,Data Ana
+Smith,461,7/20/2010,1.75,3,0,,Data Ana
+Smith,461,7/22/2010,1,4,1,Yes,Data Ana
+Smith,461,7/26/2010,0.75,5,1,,Data Ana
+Jones,463,7/19/2010,0.75,1,0,,Advising
+Jones,463,7/20/2010,0.75,2,0,,Advising
+Jones,463,7/22/2010,1.25,4,1,,Advising
+Smith,464,7/19/2010,1,1,0,,Study Co
+Smith,464,7/21/2010,0.75,2,0,,Study Co
+Smith,464,7/26/2010,1,,0,,Study Co
+Smith,464,7/27/2010,1,2,0,,Study Co
+Smith,464,7/29/2010,1.25,2,0,,Study Co
+Smith,464,7/30/2010,1,2,0,Yes,Study Co
+Smith,464,8/2/2010,2,2,0,Yes,Study Co
+Smith,464,8/3/2010,1,2,0,,Study Co
+Smith,464,8/5/2010,1.75,2,0,,Study Co
+Smith,464,8/6/2010,2.5,3,0,,Study Co
+Smith,464,8/9/2010,0.75,3,0,,Study Co
+Smith,464,8/10/2010,3,3,0,Yes,Study Co
+Smith,464,8/12/2010,0.75,3,0,,Study Co
+Smith,464,8/13/2010,1,4,0,,Study Co
+Smith,464,8/16/2010,1.75,4,0,,Study Co
+Smith,464,8/17/2010,2.25,4,0,,Study Co
+Smith,464,8/20/2010,1.5,4,1,Yes,Study Co
+Brown,465,7/20/2010,1,1,0,,Advising
+Brown,465,7/21/2010,0.75,2,0,Yes,Advising
+Brown,465,7/23/2010,0.75,3,0,,Advising
+Brown,465,7/26/2010,1.25,4,1,,Advising
+Brown,465,7/27/2010,1,5,1,,Advising
+Jones,466,7/23/2010,0.75,1,0,Yes,Data Ana
+Jones,466,7/26/2010,1,3,0,,Data Ana
+Jones,466,7/27/2010,1,4,1,Yes,Data Ana
+Jones,467,7/23/2010,1,1,0,,Data Ana
+Jones,467,7/26/2010,0.75,2,0,,Data Ana
+Jones,467,7/29/2010,1.75,3,0,,Data Ana
+Jones,467,8/2/2010,2.5,3,0,Yes,Data Ana
+Jones,467,8/3/2010,0.75,4,1,,Data Ana
+Brown,468,7/27/2010,1.25,1,0,,IT/Web D
+Brown,468,7/29/2010,0.75,2,0,,IT/Web D
+Brown,468,7/30/2010,1.75,2,0,,IT/Web D
+Brown,468,8/2/2010,0.75,2,0,,IT/Web D
+Brown,468,8/4/2010,2,2,0,,IT/Web D
+Brown,468,8/5/2010,1.5,2,0,Yes,IT/Web D
+Brown,468,8/9/2010,1.25,3,0,,IT/Web D
+Brown,468,8/11/2010,3,3,0,Yes,IT/Web D
+Brown,468,8/12/2010,1.75,3,0,,IT/Web D
+Brown,468,8/16/2010,1.75,3,0,,IT/Web D
+Brown,468,8/17/2010,2.75,3,0,,IT/Web D
+Brown,468,8/19/2010,2,3,0,,IT/Web D
+Brown,468,8/23/2010,0.75,3,0,Yes,IT/Web D
+Brown,468,8/25/2010,2.75,3,0,,IT/Web D
+Brown,468,8/27/2010,2,3,0,Yes,IT/Web D
+Brown,468,8/30/2010,2.5,4,0,,IT/Web D
+Brown,468,8/31/2010,2.25,4,1,,IT/Web D
+Brown,469,7/27/2010,1,1,0,,Advising
+Brown,469,7/28/2010,0.75,2,0,,Advising
+Brown,469,7/29/2010,0.75,3,0,,Advising
+Brown,469,7/30/2010,1.25,4,1,,Advising
+Jones,470,7/29/2010,0.75,1,0,Yes,Study Co
+Jones,470,8/2/2010,1.25,2,0,,Study Co
+Jones,470,8/5/2010,2,2,0,,Study Co
+Jones,470,8/9/2010,2,2,0,,Study Co
+Jones,470,8/12/2010,1.25,2,0,,Study Co
+Jones,470,8/16/2010,0.75,2,0,,Study Co
+Jones,470,8/19/2010,0.75,2,0,,Study Co
+Jones,470,8/23/2010,1.75,2,0,,Study Co
+Jones,470,8/25/2010,1.5,2,0,,Study Co
+Jones,470,8/30/2010,1.25,2,0,,Study Co
+Jones,470,9/1/2010,0.75,2,0,Yes,Study Co
+Jones,470,9/3/2010,,3,0,,Study Co
+Jones,470,9/6/2010,2,3,0,,Study Co
+Jones,470,9/8/2010,2,3,0,Yes,Study Co
+Jones,470,9/9/2010,0.75,3,0,,Study Co
+Jones,470,9/10/2010,2,3,0,,Study Co
+Jones,470,9/13/2010,2.5,3,0,,Study Co
+Jones,470,9/14/2010,3,3,0,Yes,Study Co
+Jones,470,9/15/2010,1.5,4,0,Yes,Study Co
+Jones,470,9/17/2010,1.75,4,0,,Study Co
+Jones,470,9/20/2010,1.75,4,1,,Study Co
+Jones,470,9/24/2010,1,5,1,Yes,Study Co
+Smith,471,8/2/2010,0.75,1,0,,IT/Web D
+Smith,471,8/4/2010,1.75,2,0,,IT/Web D
+Smith,471,8/5/2010,2.5,3,0,,IT/Web D
+Smith,471,8/9/2010,1,3,0,,IT/Web D
+Smith,471,8/10/2010,2,3,0,,IT/Web D
+Smith,471,8/12/2010,2.25,3,0,,IT/Web D
+Smith,471,8/13/2010,1.25,3,0,Yes,IT/Web D
+Smith,471,8/16/2010,3,3,0,,IT/Web D
+Smith,471,8/17/2010,1,3,0,,IT/Web D
+Smith,471,8/19/2010,2,4,1,,IT/Web D
+Smith,472,8/5/2010,1,1,0,,Data Ana
+Smith,472,8/9/2010,0.75,4,1,,Data Ana
+Smith,472,8/10/2010,0.75,5,1,,Data Ana
+Jones,473,8/6/2010,0.75,1,0,,Advising
+Jones,473,8/9/2010,1,3,0,,Advising
+Jones,473,8/10/2010,1,3,0,Yes,Advising
+Jones,473,8/11/2010,0.75,,1,,Advising
+Brown,474,8/9/2010,1,1,0,,Advising
+Brown,474,8/10/2010,1,3,0,,Advising
+Brown,474,8/12/2010,1.25,4,1,Yes,Advising
+Jones,475,8/12/2010,1,1,0,,Data Ana
+Jones,475,8/13/2010,1.75,3,0,Yes,Data Ana
+Jones,475,8/16/2010,2.75,3,0,,Data Ana
+Jones,475,8/18/2010,0.75,4,1,,Data Ana
+Smith,476,8/13/2010,1,1,0,,Data Ana
+Smith,476,8/16/2010,0.75,2,0,,Data Ana
+Smith,476,8/17/2010,2,3,0,,Data Ana
+Smith,476,8/19/2010,1.75,3,0,Yes,Data Ana
+Smith,476,8/20/2010,2.75,3,0,,Data Ana
+Smith,476,8/23/2010,3,3,0,,Data Ana
+Smith,476,8/25/2010,1,4,1,,Data Ana
+Brown,478,8/17/2010,0.75,1,0,,Data Ana
+Brown,478,8/20/2010,0.75,3,0,,Data Ana
+Brown,478,8/23/2010,0.75,4,1,,Data Ana
+Brown,479,8/17/2010,0.75,1,0,,Data Ana
+Brown,479,8/18/2010,0.75,4,1,,Data Ana
+Smith,480,8/19/2010,1,1,0,,Data Ana
+Smith,480,8/20/2010,0.75,2,0,,Data Ana
+Smith,480,8/23/2010,,2,0,,Data Ana
+Smith,480,8/24/2010,1,3,0,,Data Ana
+Smith,480,8/27/2010,2,3,0,,Data Ana
+Smith,480,8/30/2010,0.75,3,0,,Data Ana
+Smith,480,8/31/2010,0.75,4,1,,Data Ana
+Jones,481,8/19/2010,0.75,1,0,,IT/Web D
+Jones,481,8/23/2010,2,2,0,Yes,IT/Web D
+Jones,481,8/25/2010,0.75,2,0,,IT/Web D
+Jones,481,8/26/2010,2,3,0,,IT/Web D
+Jones,481,8/30/2010,1.25,3,0,Yes,IT/Web D
+Jones,481,9/1/2010,2.5,3,0,Yes,IT/Web D
+Jones,481,9/2/2010,3,3,0,,IT/Web D
+Jones,481,9/6/2010,1.75,3,0,,IT/Web D
+Jones,481,9/7/2010,3,3,0,,IT/Web D
+Jones,481,9/8/2010,0.75,3,0,,IT/Web D
+Jones,481,9/9/2010,2.5,4,0,,IT/Web D
+Jones,481,9/13/2010,1,4,1,,IT/Web D
+Jones,482,8/23/2010,1,1,0,,Data Ana
+Jones,482,8/24/2010,0.75,2,0,,Data Ana
+Jones,482,8/25/2010,0.75,2,0,,Data Ana
+Jones,482,8/27/2010,0.75,2,0,,Data Ana
+Jones,482,8/30/2010,3,3,0,Yes,Data Ana
+Jones,482,8/31/2010,2,3,0,,Data Ana
+Jones,482,9/3/2010,2,3,0,,Data Ana
+Jones,482,9/6/2010,0.75,4,1,,Data Ana
+Brown,483,8/24/2010,1,1,0,,Advising
+Brown,483,8/25/2010,0.75,2,0,,Advising
+Brown,483,8/27/2010,0.75,3,0,,Advising
+Brown,483,8/30/2010,1,4,1,,Advising
+Smith,484,8/24/2010,0.75,1,0,Yes,Data Ana
+Smith,484,8/25/2010,0.75,2,0,,Data Ana
+Smith,484,8/27/2010,1.25,3,0,,Data Ana
+Smith,484,8/30/2010,2.25,3,0,Yes,Data Ana
+Smith,484,9/1/2010,1,4,1,,Data Ana
+Brown,485,8/30/2010,0.75,1,0,Yes,Advising
+Jones,485,9/1/2010,0.75,2,0,,Advising
+Jones,485,9/2/2010,0.75,3,0,,Advising
+Jones,485,9/6/2010,0.75,4,1,,Advising
+Brown,486,8/31/2010,0.75,1,0,,Data Ana
+Jones,486,9/2/2010,0.75,2,0,,Data Ana
+Jones,486,9/3/2010,0.75,2,0,,Data Ana
+Jones,486,9/6/2010,3,3,0,,Data Ana
+Jones,486,9/8/2010,1.75,3,0,,Data Ana
+Jones,486,9/10/2010,0.75,4,1,,Data Ana
+Jones,486,9/13/2010,0.75,5,1,,Data Ana
+Jones,487,9/1/2010,0.75,1,0,,Data Ana
+Jones,487,9/3/2010,0.75,2,0,,Data Ana
+Jones,487,9/6/2010,0.75,2,0,Yes,Data Ana
+Jones,487,9/7/2010,1.25,3,0,,Data Ana
+Jones,487,9/10/2010,0.75,3,0,,Data Ana
+Jones,487,9/13/2010,0.75,4,1,,Data Ana
+Jones,488,9/2/2010,1.75,1,0,,Study Co
+Jones,488,9/6/2010,1.75,2,0,,Study Co
+Jones,488,9/9/2010,0.75,2,0,,Study Co
+Jones,488,9/13/2010,1.5,2,0,,Study Co
+Jones,488,9/14/2010,0.75,2,0,,Study Co
+Jones,488,9/16/2010,1,2,0,,Study Co
+Smith,488,9/17/2010,2,2,0,,Study Co
+Jones,488,9/20/2010,1.5,2,0,,Study Co
+Smith,488,9/23/2010,2,2,0,,Study Co
+Jones,488,9/24/2010,2,2,0,,Study Co
+Jones,488,9/27/2010,0.75,3,0,Yes,Study Co
+Jones,488,9/28/2010,1.75,3,0,,Study Co
+Jones,488,9/29/2010,2,3,0,,Study Co
+Jones,488,10/1/2010,0.75,3,0,,Study Co
+Jones,488,10/4/2010,1,3,0,,Study Co
+Jones,488,10/5/2010,2.5,3,0,,Study Co
+Jones,488,10/6/2010,1.5,3,0,,Study Co
+Jones,488,10/8/2010,1.75,3,0,Yes,Study Co
+Jones,488,10/13/2010,2.25,3,0,,Study Co
+Jones,488,10/14/2010,1.5,4,1,,Study Co
+Jones,489,9/3/2010,1,1,0,Yes,IT/Web D
+Jones,489,9/6/2010,1.25,2,0,,IT/Web D
+Jones,489,9/8/2010,2,2,0,,IT/Web D
+Jones,489,9/9/2010,2.25,3,0,,IT/Web D
+Jones,489,9/10/2010,2.75,3,0,Yes,IT/Web D
+Brown,489,9/13/2010,1,,0,,IT/Web D
+Jones,489,9/14/2010,1.25,4,1,,IT/Web D
+Jones,489,9/15/2010,1,5,1,,IT/Web D
+Jones,490,9/6/2010,1,1,0,,IT/Web D
+Jones,490,9/7/2010,2,2,0,,IT/Web D
+Jones,490,9/9/2010,1.75,2,0,,IT/Web D
+Jones,490,9/10/2010,0.75,2,0,,IT/Web D
+Jones,490,9/13/2010,2,3,0,Yes,IT/Web D
+Jones,490,9/14/2010,1,4,0,,IT/Web D
+Jones,490,9/15/2010,2.25,4,1,,IT/Web D
+Smith,490,9/16/2010,0.75,5,1,,IT/Web D
+Jones,491,9/7/2010,0.75,1,0,,Advising
+Jones,491,9/9/2010,1.25,4,1,,Advising
+Jones,493,9/13/2010,0.75,1,0,,Data Ana
+Jones,493,9/15/2010,0.75,2,0,,Data Ana
+Jones,493,9/20/2010,2,3,0,,Data Ana
+Jones,493,9/21/2010,1,4,1,,Data Ana
+Jones,494,9/14/2010,1,1,0,,Advising
+Jones,494,9/16/2010,1,3,0,,Advising
+Jones,494,9/20/2010,1,3,0,Yes,Advising
+Jones,494,9/21/2010,0.75,4,1,,Advising
+Jones,495,9/17/2010,0.75,1,0,Yes,Advising
+Jones,495,9/20/2010,0.75,2,0,,Advising
+Jones,495,9/21/2010,1,4,1,,Advising
+Jones,496,9/20/2010,1.5,1,0,,IT/Web D
+Jones,496,9/22/2010,0.75,2,0,,IT/Web D
+Jones,496,9/24/2010,2.25,3,0,,IT/Web D
+Jones,496,9/27/2010,1,,0,,IT/Web D
+Jones,496,9/29/2010,3,3,0,,IT/Web D
+Jones,496,9/30/2010,,3,0,,IT/Web D
+Jones,496,10/4/2010,1.25,3,0,,IT/Web D
+Jones,496,10/6/2010,3,3,0,,IT/Web D
+Jones,496,10/7/2010,1,3,0,,IT/Web D
+Jones,496,10/8/2010,1.25,3,0,,IT/Web D
+Jones,496,10/13/2010,2.25,3,0,,IT/Web D
+Jones,496,10/15/2010,2,4,1,,IT/Web D
+Jones,497,9/23/2010,0.75,1,0,,Advising
+Jones,497,9/27/2010,0.75,3,0,,Advising
+Jones,497,9/28/2010,0.75,3,0,,Advising
+Jones,497,9/30/2010,1.25,4,1,,Advising
+Jones,498,9/24/2010,1.75,1,0,,Study Co
+Jones,498,9/27/2010,0.75,2,0,,Study Co
+Jones,498,9/29/2010,2,2,0,,Study Co
+Jones,498,10/4/2010,1.5,2,0,,Study Co
+Jones,498,10/6/2010,2,2,0,,Study Co
+Jones,498,10/13/2010,1.75,2,0,,Study Co
+Smith,498,10/18/2010,2,2,0,,Study Co
+Jones,498,10/21/2010,1.25,2,0,Yes,Study Co
+Jones,498,10/25/2010,0.75,2,0,,Study Co
+Jones,498,10/28/2010,1.5,2,0,Yes,Study Co
+Jones,498,11/1/2010,1.75,3,0,,Study Co
+Jones,498,11/3/2010,2.5,3,0,,Study Co
+Jones,498,11/4/2010,1.25,3,0,,Study Co
+Jones,499,9/24/2010,1.5,1,0,Yes,IT/Web D
+Jones,499,9/27/2010,1.75,2,0,,IT/Web D
+Jones,499,9/29/2010,1.75,2,0,,IT/Web D
+Jones,499,9/30/2010,1.25,2,0,,IT/Web D
+Jones,499,10/1/2010,2.5,3,0,,IT/Web D
+Jones,499,10/4/2010,0.75,4,0,Yes,IT/Web D
+Brown,499,10/5/2010,1.25,4,1,,IT/Web D
+Jones,500,9/28/2010,0.75,1,0,,Advising
+Jones,500,9/29/2010,0.75,2,0,,Advising
+Jones,500,10/1/2010,1,3,0,,Advising
+Jones,500,10/4/2010,0.75,4,1,,Advising
+Jones,501,10/1/2010,1.75,1,0,,Study Co
+Jones,501,10/4/2010,2,2,0,,Study Co
+Jones,501,10/6/2010,2.5,3,0,Yes,Study Co
+Jones,501,10/8/2010,2,4,0,,Study Co
+Jones,501,10/13/2010,2.5,4,0,,Study Co
+Brown,501,10/15/2010,1.5,4,0,,Study Co
+Jones,501,10/18/2010,1,4,1,,Study Co
+Jones,501,10/22/2010,1.25,5,1,,Study Co
+Jones,502,10/5/2010,1,1,0,,Advising
+Jones,502,10/6/2010,0.75,2,0,,Advising
+Jones,502,10/8/2010,0.75,3,0,Yes,Advising
+Jones,502,10/13/2010,1,3,0,,Advising
+Jones,502,10/15/2010,1,4,1,,Advising
+Jones,502,10/18/2010,1,5,1,,Advising
+Jones,503,10/7/2010,0.75,1,0,,Advising
+Jones,503,10/13/2010,0.75,2,0,Yes,Advising
+Jones,503,10/14/2010,1.25,4,1,,Advising
+Jones,504,10/13/2010,0.75,1,0,,IT/Web D
+Jones,504,10/14/2010,1.75,2,0,,IT/Web D
+Jones,504,10/18/2010,2,2,0,,IT/Web D
+Jones,504,10/19/2010,1.25,2,0,Yes,IT/Web D
+Brown,504,10/20/2010,2,2,0,,IT/Web D
+Jones,504,10/21/2010,1.25,2,0,,IT/Web D
+Jones,504,10/22/2010,1,3,0,,IT/Web D
+Jones,504,10/25/2010,2.75,3,0,Yes,IT/Web D
+Jones,504,10/26/2010,1.25,3,0,Yes,IT/Web D
+Jones,504,10/27/2010,1.5,3,0,,IT/Web D
+Jones,504,10/28/2010,0.75,3,0,,IT/Web D
+Jones,504,10/29/2010,2.75,3,0,,IT/Web D
+Jones,504,11/1/2010,2.25,3,0,,IT/Web D
+Jones,504,11/3/2010,2.5,3,0,,IT/Web D
+Jones,505,10/18/2010,1.5,1,0,,IT/Web D
+Jones,505,10/19/2010,1.5,2,0,,IT/Web D
+Jones,505,10/20/2010,1.5,2,0,,IT/Web D
+Jones,505,10/22/2010,1.25,2,0,,IT/Web D
+Jones,505,10/25/2010,1.25,2,0,,IT/Web D
+Jones,505,10/27/2010,0.75,2,0,,IT/Web D
+Jones,505,10/29/2010,2.75,3,0,,IT/Web D
+Jones,505,11/1/2010,0.75,3,0,,IT/Web D
+Jones,505,11/3/2010,2.5,3,0,,IT/Web D
+Jones,506,10/19/2010,0.75,1,0,,Advising
+Jones,506,10/20/2010,1,3,0,,Advising
+Jones,506,10/22/2010,1,3,0,,Advising
+Jones,506,10/25/2010,1,4,1,Yes,Advising
+Jones,507,10/22/2010,0.75,1,0,,Advising
+Jones,507,10/25/2010,0.75,2,0,Yes,Advising
+Jones,507,10/26/2010,1,3,0,,Advising
+Jones,507,10/27/2010,0.75,3,0,Yes,Advising
+Jones,507,10/28/2010,1.25,4,1,,Advising
+Jones,508,10/22/2010,1,1,0,,Advising
+Jones,508,10/25/2010,0.75,2,0,,Advising
+Jones,508,10/27/2010,0.75,3,0,,Advising
+Jones,508,10/29/2010,1,4,1,,Advising
+Jones,509,10/22/2010,0.75,1,0,,IT/Web D
+Jones,509,10/25/2010,1.75,2,0,,IT/Web D
+Jones,509,10/26/2010,1.5,2,0,,IT/Web D
+Brown,509,10/28/2010,1.5,2,0,,IT/Web D
+Jones,509,11/1/2010,0.75,2,0,,IT/Web D
+Jones,509,11/2/2010,1.75,3,0,,IT/Web D
+Jones,509,11/3/2010,2.5,3,0,,IT/Web D
+Jones,509,11/4/2010,1.5,3,0,,IT/Web D
+Jones,510,10/25/2010,1,1,0,,Advising
+Jones,510,10/26/2010,0.75,2,0,,Advising
+Jones,510,10/28/2010,0.75,3,0,,Advising
+Jones,510,11/1/2010,1,4,1,,Advising
+Jones,511,10/26/2010,0.75,1,0,,IT/Web D
+Jones,511,10/28/2010,1.5,2,0,,IT/Web D
+Jones,511,10/29/2010,0.75,2,0,,IT/Web D
+Jones,511,11/1/2010,2,2,0,,IT/Web D
+Jones,511,11/2/2010,0.75,2,0,,IT/Web D
+Jones,511,11/4/2010,1.75,2,0,,IT/Web D
+Jones,512,10/29/2010,1,1,0,,IT/Web D
+Jones,512,11/1/2010,0.75,2,0,,IT/Web D
+Jones,512,11/3/2010,1,3,0,,IT/Web D
+Jones,513,10/29/2010,,1,0,,Advising
+Jones,513,11/1/2010,1,4,1,,Advising
+Jones,514,11/2/2010,0.75,1,0,,Advising
+Jones,514,11/3/2010,0.75,2,0,,Advising
+Jones,514,11/4/2010,0.75,4,1,,Advising
