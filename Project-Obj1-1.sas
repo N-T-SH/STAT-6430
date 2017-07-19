@@ -166,3 +166,70 @@ do i  = 1 to 3;
 end;
 run;
 
+
+/*Objective 4: */
+/*1st. total amount of hrs spent on different types of projects for each consultant (complete projects only)*/
+proc sort data = smith;                                                                                                                 
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+data PrjHr_Smith (drop = Hrs_tot stage complete start_date end_date projNum);                                                           
+set smith;                                                                                                                              
+by type;                                                                                                                                
+retain Hrs_tot SumHrs;                                                                                                                  
+if first.type then sumHrs=hrs_tot;                                                                                                      
+else sumHrs+hrs_tot;                                                                                                                    
+if last.type then output;                                                                                                               
+run;                                                                                                                                    
+                                                                                                                                        
+                                                                                                                                        
+proc sort data = jones;                                                                                                                 
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+                                                                                                                                        
+data PrjHr_Jones (drop = Hrs_tot stage complete start_date end_date projNum);                                                           
+set jones;                                                                                                                              
+by type;                                                                                                                                
+retain Hrs_tot SumHrs;                                                                                                                  
+if first.type then sumHrs=hrs_tot;                                                                                                      
+else sumHrs+hrs_tot;                                                                                                                    
+if last.type then output;                                                                                                               
+run;                                                                                                                                    
+                                                                                                                                        
+proc sort data = brown;                                                                                                                 
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+                                                                                                                                        
+data PrjHr_Brown (drop = Hrs_tot stage complete start_date end_date projNum);                                                           
+set brown;                                                                                                                              
+by type;                                                                                                                                
+retain Hrs_tot SumHrs;                                                                                                                  
+if first.type then sumHrs=hrs_tot;                                                                                                      
+else sumHrs+hrs_tot;                                                                                                                    
+if last.type then output;                                                                                                               
+run;                                                                                                                                    
+                                                                                                                                        
+proc sort data = Prjhr_smith;                                                                                                           
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+proc sort data = Prjhr_brown;                                                                                                           
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+proc sort data = Prjhr_jones;                                                                                                           
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+data Prjhr_sb;                                                                                                                          
+merge Prjhr_smith (rename = (SumHrs = Smith)) Prjhr_brown (rename = (SumHrs = Brown));                                                  
+by type;                                                                                                                                
+run;                                                                                                                                    
+                                                                                                                                        
+data Prjhr_all;                                                                                                                         
+merge Prjhr_jones (rename = (SumHrs = Jones)) Prjhr_sb;                                                                                 
+by type;                                                                                                                                
+run;
+
