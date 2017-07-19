@@ -123,7 +123,8 @@ filename NwMstr 'C:\SASProject\NewMaster.csv';
 data _NULL_;
 set new_master;
 file NwMstr dsd;
-put consultant Projnum Date Hours stage ProjClass Complete Corrections; /*Replaced stage with class*/
+put consultant Projnum Date Hours stage type Complete Corrections; /*Replaced class with type - type is the var, class was the file*/
+format date mmddyy10.; /*formatted date so the CSV writes it correctly */
 run;
 
 LIBNAME ProjData 'C:\SASProject\';
