@@ -286,3 +286,10 @@ class type;
 var hourstot;
 run;
 
+*display the spread of hours using histogram;
+proc univariate data=HoursbyType;
+class type;
+var hourstot ;
+histogram;
+run;
+
