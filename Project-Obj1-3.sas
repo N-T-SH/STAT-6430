@@ -268,3 +268,21 @@ merge Prjhr_jones (rename = (SumHrs = Jones)) Prjhr_sb;
 by type;                                                                                                                                                                                                                                                        
 run; 
 
+/*2nd. average time spent on types of projects */       
+/*title 'Average Hours Worked by Type' ;*/ 
+*Create new data set that totals the hours spent on each project;
+data HoursbyType (keep = projnum hours type hourstot) ;
+set ProjData.NewMaster;
+by ProjNum;
+retain hourstot;
+if first.projnum then hourstot=0;
+hourstot = hourstot + hours;
+if last.projnum then output;
+run;
+
+*find the average and display using proc statement;
+proc means data=HoursbyType n mean std min max;
+class type;
+var hourstot;
+run;
+
