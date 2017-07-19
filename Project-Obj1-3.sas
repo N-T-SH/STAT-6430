@@ -127,6 +127,12 @@ put consultant Projnum Date Hours stage type Complete Corrections; /*Replaced cl
 format date mmddyy10.; /*formatted date so the CSV writes it correctly */
 run;
 
+proc print data= new_master label;
+var consultant Projnum Date Hours stage Complete Corrections type;
+label Consultant = 'Consultant' Projnum = 'Project Number' Date = 'Date' Hours = 'Hours Worked'
+stage = 'Project Stage' Complete = 'Complete' Corrections = 'Corrections Made' type = 'Project Type';
+run; 
+
 LIBNAME ProjData 'C:\SASProject\';
 data ProjData.NewMaster;
 set new_master;
