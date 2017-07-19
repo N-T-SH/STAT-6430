@@ -181,13 +181,11 @@ if first.type then sumHrs=hrs_tot;
 else sumHrs+hrs_tot;                                                                                                                    
 if last.type then output;                                                                                                               
 run;                                                                                                                                    
-                                                                                                                                        
-                                                                                                                                        
+                                                                                                                                                                                                                                                                               
 proc sort data = jones;                                                                                                                 
 by type;                                                                                                                                
 run;                                                                                                                                    
-                                                                                                                                        
-                                                                                                                                        
+                                                                                                                                                                                                                                                                                
 data PrjHr_Jones (drop = Hrs_tot stage complete start_date end_date projNum);                                                           
 set jones;                                                                                                                              
 by type;                                                                                                                                
@@ -200,8 +198,7 @@ run;
 proc sort data = brown;                                                                                                                 
 by type;                                                                                                                                
 run;                                                                                                                                    
-                                                                                                                                        
-                                                                                                                                        
+                                                                                                                                                                                                                                                                                
 data PrjHr_Brown (drop = Hrs_tot stage complete start_date end_date projNum);                                                           
 set brown;                                                                                                                              
 by type;                                                                                                                                
