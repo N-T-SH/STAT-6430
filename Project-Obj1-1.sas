@@ -37,6 +37,7 @@ run;
 /*import Project Class */
 data Proj_class;
 infile projclas firstobs=2 dsd;
+length type $18; 
 input type $ ProjNum;
 run;
 
