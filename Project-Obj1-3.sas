@@ -140,10 +140,15 @@ run;
 /*End of Objective 1, assuming merge is correct*/
 
 /*Objective 2: List of ongoing projects as on 11/4/2010*/
+title2 'Ongoing Projects'; /*Add title */
+
 data ongoing ( keep = ProjNum);
 set new_master;
 by ProjNum Date;
 if complete = 0 and last.ProjNum = 1 then output;
+run;
+
+proc print data=ongoing noobs; /*output with title and no observations*/
 run;
 
 /*Objective 3: */
@@ -180,6 +185,7 @@ run;
 /*end;*/
 /*run;*/
 
+
 /*Objective 3: */
 /*Only outputting to one File right now*/
 
@@ -209,6 +215,19 @@ by ProjNum Date; /*Added correction for missing hours total from consutant repor
 			if Consultant = 'Jones' then output Jones;
 		end;
 
+run;
+
+/*give titles and print each output for consulting activity */
+title3 'Consulting Activity for Smith';
+proc print data=Smith noobs; /*output with title and no observations*/
+run;
+title;
+title4 'Consulting Activity for Jones';
+proc print data=Jones noobs;
+run;
+title;
+title5 'Consulting Activity for Brown';
+proc print data = Brown;
 run;
 
 /*Objective 4: */                                                                                                                                                                                                                                               
