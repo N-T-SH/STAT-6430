@@ -293,6 +293,28 @@ merge Prjhr_jones (rename = (SumHrs = Jones)) Prjhr_sb;
 by type;                                                                                                                                                                                                                                                        
 run; 
 
+/* Set the graphics environment */                                                                                                                                                                                                                              
+goptions reset=all cback=white border htitle=12pt htext=10pt;                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                
+/* Define the title */                                                                                                                                                                                                                                          
+title1 'Total Hours by Project Type';                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                
+/* Define the axis characteristics */                                                                                                                                                                                                                           
+axis1 value=none label=none;                                                                                                                                                                                                                                    
+axis2 label=(angle=90 "Hours");                                                                                                                                                                                                                                 
+axis3 label=none;                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                
+/* Define the legend options */                                                                                                                                                                                                                                 
+legend1 frame;                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                
+/* Generate the graph */                                                                                                                                                                                                                                        
+proc gchart data=new_master;                                                                                                                                                                                                                                    
+   vbar consultant / subgroup=consultant group=type sumvar=hours                                                                                                                                                                                                
+                  legend=legend1 space=0 gspace=4                                                                                                                                                                                                               
+                  maxis=axis1 raxis=axis2 gaxis=axis3;                                                                                                                                                                                                          
+run;                                                                                                                                                                                                                                                            
+quit;
+
 /*2nd. average time spent on types of projects */       
 /*title 'Average Hours Worked by Type' ;*/ 
 *Create new data set that totals the hours spent on each project;
