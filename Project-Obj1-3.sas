@@ -107,11 +107,11 @@ proc sort data= Proj_Class;
 by ProjNum;
 run;
 
+/*Add project types to master file*/
 data new_master;
 merge new_master Proj_Class;
 by ProjNum;
 if missing(Hours) then Hours = 0; /*Replace missing hours*/ 
-*retain Consultant ProjNum Type Date Hours Stage Complete Corrections;
 run;
 
 proc sort data= new_master;
@@ -127,21 +127,24 @@ put consultant Projnum Date Hours stage type Complete Corrections; /*Replaced cl
 format date mmddyy10.; /*formatted date so the CSV writes it correctly */
 run;
 
+/*if desired can print with updated clinet-friendly labels*/
 proc print data= new_master label;
 var consultant Projnum Date Hours stage Complete Corrections type;
 label Consultant = 'Consultant' Projnum = 'Project Number' Date = 'Date' Hours = 'Hours Worked'
 stage = 'Project Stage' Complete = 'Complete' Corrections = 'Corrections Made' type = 'Project Type';
 run; 
 
+/*create permanent sas data set*/
 LIBNAME ProjData 'C:\SASProject\';
 data ProjData.NewMaster;
 set new_master;
 run;
-/*End of Objective 1, assuming merge is correct*/
+/*End of Objective 1*/
 
 /*Objective 2: List of ongoing projects as on 11/4/2010*/
 title2 'Ongoing Projects'; /*Add title */
 
+/*add in new_master, sort by Projdate, output completed projects*/
 data ongoing ( keep = ProjNum);
 set new_master;
 by ProjNum Date;
@@ -209,7 +212,8 @@ run;
 proc sort data = smith;                                                                                                                                                                                                                                         
 by type;                                                                                                                                                                                                                                                        
 run;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                
+ 
+ /* Sum hours worked by Consultant Smith*/
 data PrjHr_Smith (drop = hrs_smith stage complete start_date end_date projNum);                                                                                                                                                                                 
 set smith;                                                                                                                                                                                                                                                      
 by type;                                                                                                                                                                                                                                                        
@@ -222,7 +226,8 @@ run;
 proc sort data = jones;                                                                                                                                                                                                                                         
 by type;                                                                                                                                                                                                                                                        
 run;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                
+
+ /* Sum hours worked by Consultant Jones*/
 data PrjHr_Jones (drop = Hrs_jones stage complete start_date end_date projNum);                                                                                                                                                                                 
 set jones;                                                                                                                                                                                                                                                      
 by type;                                                                                                                                                                                                                                                        
@@ -235,7 +240,8 @@ run;
 proc sort data = brown;                                                                                                                                                                                                                                         
 by type;                                                                                                                                                                                                                                                        
 run;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                
+
+ /* Sum hours worked by Consultant Brown*/
 data PrjHr_Brown (drop = Hrs_brown stage complete start_date end_date projNum);                                                                                                                                                                                 
 set brown;                                                                                                                                                                                                                                                      
 by type;                                                                                                                                                                                                                                                        
@@ -244,7 +250,8 @@ if first.type then sumHrs=hrs_brown;
 else sumHrs+hrs_brown;                                                                                                                                                                                                                                          
 if last.type then output;                                                                                                                                                                                                                                       
 run;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                
+
+ /* Sort new data sets by type*/
 proc sort data = Prjhr_smith;                                                                                                                                                                                                                                   
 by type;                                                                                                                                                                                                                                                        
 run;                                                                                                                                                                                                                                                            
@@ -261,7 +268,8 @@ data Prjhr_sb;
 merge Prjhr_smith (rename = (SumHrs = Smith)) Prjhr_brown (rename = (SumHrs = Brown));                                                                                                                                                                          
 by type;                                                                                                                                                                                                                                                        
 run;                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                
+
+ /* Create Data Set with all consultant's totals*/
 data Prjhr_all;                                                                                                                                                                                                                                                 
 merge Prjhr_jones (rename = (SumHrs = Jones)) Prjhr_sb;                                                                                                                                                                                                         
 by type;                                                                                                                                                                                                                                                        
@@ -289,8 +297,8 @@ proc gchart data=new_master;
 run;                                                                                                                                                                                                                                                            
 quit;
 
-/*2nd. average time spent on types of projects */       
-/*title 'Average Hours Worked by Type' ;*/ 
+/*2nd. average time spent on types of projects */  
+
 *Create new data set that totals the hours spent on each project;
 title;
 title7 'Average Hours Worked by Project Type';
