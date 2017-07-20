@@ -302,6 +302,8 @@ if last.projnum then output;
 run;
 
 *find the average and display using proc statement;
+title;
+title7 'Average Hours Worked by Project Type';
 proc means data=HoursbyType n mean std min max;
 class type;
 var hourstot;
@@ -330,7 +332,7 @@ by Stage;
 run;
 
 title;
-title5 'Box Plot for Power Output';
+title5 ''Duration of Time by Project Stage';
 proc boxplot data=DurbyStage;
 plot Duration*Stage;
 run;
