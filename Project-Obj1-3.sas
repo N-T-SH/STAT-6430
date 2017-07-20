@@ -292,8 +292,8 @@ quit;
 /*2nd. average time spent on types of projects */       
 /*title 'Average Hours Worked by Type' ;*/ 
 *Create new data set that totals the hours spent on each project;
-data HoursbyType (keep = projnum hours type hourstot) ;
-set ProjData.NewMaster;
+data HoursbyType (keep = projnum hours type hourstot);
+set new_master;
 by ProjNum;
 retain hourstot;
 if first.projnum then hourstot=0;
@@ -307,10 +307,31 @@ class type;
 var hourstot;
 run;
 
-*display the spread of hours using histogram;
-proc univariate data=HoursbyType;
-class type;
-var hourstot ;
-histogram;
+/*3rd. Period of time spent in each project stage */
+data DurbyStage (keep = projnum Stage Duration) ;
+retain start end;
+set New_master;
+by ProjNum Stage;
+retain Duration;
+/*if first.ProjNum then do;*/
+        if first.Stage then do;
+            start = Date;
+            end;
+/*        else start = start;*/
+        if last.Stage then do;
+            end = Date;
+            duration = end - start;
+            output;
+            end;
+run;
+
+proc sort data= DurbyStage;
+by Stage;
+run;
+
+title;
+title5 'Box Plot for Power Output';
+proc boxplot data=DurbyStage;
+plot Duration*Stage;
 run;
 
