@@ -292,6 +292,8 @@ quit;
 /*2nd. average time spent on types of projects */       
 /*title 'Average Hours Worked by Type' ;*/ 
 *Create new data set that totals the hours spent on each project;
+title;
+title7 'Average Hours Worked by Project Type';
 data HoursbyType (keep = projnum hours type hourstot);
 set new_master;
 by ProjNum;
@@ -302,11 +304,10 @@ if last.projnum then output;
 run;
 
 *find the average and display using proc statement;
-title;
-title7 'Average Hours Worked by Project Type';
 proc means data=HoursbyType n mean std min max;
 class type;
 var hourstot;
+label type = 'Project Type';
 run;
 
 /*3rd. Period of time spent in each project stage */
