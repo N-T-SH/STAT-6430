@@ -92,17 +92,19 @@ proc sort data= merge_a;
 by ProjNum Date;
 run;
 
+/*Merge the consolidated master with the table where corrections are made*/
 data new_master;
 update merge_a(in = in1) correct_n(in = in2); /*Update merge_a using correct_n by referring to both ProjNum and Date*/
 by ProjNum Date;
 if in2 then Corrections = 'Yes'; /*Add columns for corrrections*/
 run;
 
-
+/*Sort the master by ProjNum*/
 proc sort data= new_master;
 by ProjNum;
 run;
 
+/*Sort the project class by ProjNum*/
 proc sort data= Proj_Class;
 by ProjNum;
 run;
@@ -114,11 +116,12 @@ by ProjNum;
 if missing(Hours) then Hours = 0; /*Replace missing hours*/ 
 run;
 
+/*Sort the updates master*/
 proc sort data= new_master;
 by ProjNum Date;
 run;
 
-*creating newmaster csv;
+*creating newmaster csv to output csv files;
 filename NwMstr 'C:\SASProject\NewMaster.csv';
 data _NULL_;
 set new_master;
@@ -324,22 +327,20 @@ retain start end;
 set New_master;
 by ProjNum Stage;
 retain Duration;
-/*if first.ProjNum then do;*/
         if first.Stage then do;
             start = Date;
             end;
-/*        else start = start;*/
         if last.Stage then do;
             end = Date;
-            duration = end - start;
+            duration = end - start; /*Calculation of duration taken to complete the stage*/
             output;
             end;
 run;
-
+/*Sorting data by stage*/
 proc sort data= DurbyStage;
 by Stage;
 run;
-
+/*Boxplot showing duration distribution by stage*/
 title;
 title5 ''Duration of Time by Project Stage';
 proc boxplot data=DurbyStage;
