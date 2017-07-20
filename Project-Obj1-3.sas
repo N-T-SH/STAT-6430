@@ -148,7 +148,8 @@ by ProjNum Date;
 if complete = 0 and last.ProjNum = 1 then output;
 run;
 
-proc print data=ongoing noobs; /*output with title and no observations*/
+proc print data=ongoing noobs label; /*output with title and no observations*/
+label projnum = 'Project Number'; /*update projnum label*/
 run;
 
 
