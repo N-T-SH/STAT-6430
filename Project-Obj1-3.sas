@@ -151,52 +151,17 @@ run;
 proc print data=ongoing noobs; /*output with title and no observations*/
 run;
 
-/*Objective 3: */
-/*Only outputting to one File right now*/
-/*data Smith(keep = ProjNum Hrs_tot Stage Complete start_date end_date) */
-/*	Brown(keep = ProjNum Hrs_tot Stage Complete start_date end_date) */
-/*	Jones(keep = ProjNum Hrs_tot Stage Complete start_date end_date);*/
-/*retain Hrs_tot Stage Complete start_date end_date; */
-/*set ProjData.NewMaster;*/
-/*by ProjNum Date;*/
-/*array Consult{3} $ Cons1-Cons3 ('Smith' 'Brown' 'Jones');*/
-/*do i  = 1 to 3;*/
-/*	if Consultant = Consult(i) then do;/*Iterating over the three consultants*/
-/*		/*Calculating total hours spent on project*/
-/*		if first.ProjNum then do;*/
-/*			Hrs_tot = Hours;*/
-/*			start_date = Date;*/
-/*		end;*/
-/*		else Hrs_tot = Hrs_tot + Hours;*/
-/*		/*Outputting to three diffetren tables based on consultant*/
-/*		if last.ProjNum and Consultant = 'Smith' then do;*/
-/*			end_date = Date;*/
-/*			output Smith;*/
-/*		end;*/
-/*		if last.ProjNum and Consultant = 'Brown' then do;*/
-/*			end_date = Date;*/
-/*			output Brown;*/
-/*		end;*/
-/*		if last.ProjNum and Consultant = 'Jones' then do;*/
-/*			end_date = Date;*/
-/*			output Jones;*/
-/*		end;*/
-/*	end;*/
-/*end;*/
-/*run;*/
-
 
 /*Objective 3: */
-/*Only outputting to one File right now*/
-
+/*Using the new master file, generate a report of the consulting activity of each consultant on each project as of the last entry date  */
 data Smith(keep = ProjNum type Hrs_Smith Proj_Class Complete start_date end_date ) 
 	Brown(keep = ProjNum type Hrs_Brown Proj_Class Complete start_date end_date ) 
 	Jones(keep = ProjNum type Hrs_Jones Proj_Class Complete start_date end_date /*rename = (Hrs_Jones = Hrs_tot)*/);
 retain Hrs_Smith Hrs_Brown Hrs_Jones Proj_Class Stage Complete start_date end_date; 
 set new_master;
-by ProjNum Date; /*Added correction for missing hours total from consutant report*/
+by ProjNum Date; /*=Sort by date*/
 
-		if first.ProjNum then do;
+		if first.ProjNum then do; /*Begin to total the hours by Consultant using if else statements*/
 			start_date = Date;
 			if Consultant = 'Smith' then Hrs_Smith  = Hours;
 			if Consultant = 'Brown' then Hrs_Brown  = Hours;
@@ -207,7 +172,7 @@ by ProjNum Date; /*Added correction for missing hours total from consutant repor
 			if Consultant = 'Brown' then Hrs_Brown = Hrs_Brown + Hours;
 			if Consultant = 'Jones' then Hrs_Jones = Hrs_Jones + Hours;
 		end;
-		/*Outputting to three diffetren tables based on consultant*/
+		/*Outputting to three different tables based on consultant*/
 		if last.ProjNum then do;
 			end_date = Date;
 			if Consultant = 'Smith' then output Smith;
@@ -218,16 +183,24 @@ by ProjNum Date; /*Added correction for missing hours total from consutant repor
 run;
 
 /*give titles and print each output for consulting activity */
-title3 'Consulting Activity for Smith';
-proc print data=Smith noobs; /*output with title and no observations*/
+title3 'Consulting Activity for Smith'; 
+proc print data=Smith noobs label; /*output with title and no observations*/
+label Hrs_Smith = 'Hours Worked' Complete = 'Complete' Projnum = 'Project Number' 
+start_date = 'Start Date' end_date = 'End Date' type = 'Project Type';/*Update Labels*/
 run;
+
 title;
 title4 'Consulting Activity for Jones';
-proc print data=Jones noobs;
+proc print data=Jones noobs label; /*output with title and no observations*/
+label Hrs_Jones = 'Hours Worked' Complete = 'Complete' Projnum = 'Project Number' 
+start_date = 'Start Date' end_date = 'End Date' type = 'Project Type';/*Update Labels*/
 run;
+
 title;
 title5 'Consulting Activity for Brown';
-proc print data = Brown;
+proc print data = Brown noobs label; /*output with title and no observations*/
+label Hrs_Brown = 'Hours Worked' Complete = 'Complete' Projnum = 'Project Number' 
+start_date = 'Start Date' end_date = 'End Date' type = 'Project Type';  /*Update Labels*/
 run;
 
 /*Objective 4: */                                                                                                                                                                                                                                               
